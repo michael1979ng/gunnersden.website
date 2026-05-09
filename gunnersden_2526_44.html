@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GunnersDen — Arsenal FC 2025/26 Season News</title>
+<meta name="description" content="GunnersDen: Arsenal FC 2025/26 season news — Champions League, FA Cup, EFL Cup match reports and analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<!-- Google AdSense: replace ca-pub-XXXXXXXX when approved -->
+<!-- Google AdSense: replace ca-pub-XXXXXXXX when approved -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
+<style>
+
+:root{--r:#DB0007;--rd:#9B0005;--gold:#C19A35;--w:#fff;--bg:#F5F2EE;--dk:#1a1a1a;--dk2:#2d2d2d;--g4:#555;--g5:#888;--g6:#bbb;--g7:#ddd;--g8:#f0eeeb;--fh:"Playfair Display",Georgia,serif;--fb:"Barlow",system-ui,sans-serif;--fd:"Barlow Condensed",sans-serif;--rad:6px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--fb);background:var(--bg);color:var(--dk);line-height:1.6;font-size:16px;min-height:100vh}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit}
+img{display:block;max-width:100%}
+
+/* TICKER */
+.ticker{background:var(--r);overflow:hidden;position:relative;height:36px;border-bottom:2px solid var(--rd)}
+.ticker-label{position:absolute;left:0;top:0;bottom:0;background:#111;color:var(--gold);font-family:var(--fd);font-size:11px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;padding:0 16px;display:flex;align-items:center;z-index:2;white-space:nowrap;border-right:2px solid var(--gold)}
+.ticker-track{display:flex;animation:tick 80s linear infinite;align-items:center;height:36px;padding-left:152px}
+.ticker-track:hover{animation-play-state:paused}
+.ticker-item{white-space:nowrap;font-family:var(--fd);font-size:13px;font-weight:600;color:#fff;padding:0 32px}
+.ticker-item::after{content:" ⚽";opacity:.45}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* MASTHEAD */
+.mast{background:#fff;border-bottom:4px solid var(--r);padding:10px 0;position:sticky;top:0;z-index:200;box-shadow:0 2px 16px rgba(0,0,0,.1)}
+.mast-in{max-width:1280px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;cursor:pointer}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2.5px solid var(--r)}
+.logo-name{font-family:var(--fd);font-size:26px;font-weight:800;color:var(--r);text-transform:uppercase;letter-spacing:-.02em;line-height:1}
+.logo-sub{font-family:var(--fd);font-size:10px;color:var(--g5);letter-spacing:.18em;text-transform:uppercase;margin-top:3px}
+.mast-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.hdr-date{font-family:var(--fd);font-size:11px;color:var(--g5);letter-spacing:.06em;text-transform:uppercase}
+.soc-strip{display:flex;gap:5px}
+.soc-btn{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;transition:transform .18s;color:#fff;text-decoration:none}
+.soc-btn:hover{transform:scale(1.15)}
+.soc-btn svg{width:13px;height:13px}
+.s-fb{background:#1877F2}
+.s-x{background:#000}
+.s-sky{background:#0085ff}
+.s-th{background:#111}
+.s-yt{background:#FF0000}
+.gear{background:none;border:none;font-size:19px;color:var(--g5);padding:4px 6px;transition:color .15s;line-height:1}
+.gear:hover{color:var(--r)}
+
+/* NAV */
+.nav{background:var(--r)}
+.nav-in{max-width:1280px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:wrap}
+.nav-btn{background:none;border:none;border-bottom:3px solid transparent;font-family:var(--fd);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.85);padding:11px 14px;transition:all .18s}
+.nav-btn:hover,.nav-btn.on{color:#fff;background:rgba(0,0,0,.18);border-bottom-color:var(--gold)}
+
+/* LAYOUT */
+.page-wrap{max-width:1280px;margin:0 auto;padding:24px 20px}
+.main-grid{display:grid;grid-template-columns:1fr 330px;gap:24px}
+@media(max-width:960px){.main-grid{grid-template-columns:1fr}}
+.page{display:none}
+.page.active{display:block}
+
+/* SEARCH */
+.search-bar{display:flex;margin-bottom:20px}
+.search-inp{flex:1;padding:10px 14px;border:2px solid var(--g7);border-right:none;border-radius:var(--rad) 0 0 var(--rad);font-size:14px;font-family:var(--fb);background:#fff}
+.search-inp:focus{outline:none;border-color:var(--r)}
+.search-go{background:var(--r);color:#fff;border:none;padding:10px 18px;border-radius:0 var(--rad) var(--rad) 0;font-family:var(--fd);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+
+/* AD SLOTS */
+.ad-slot{background:var(--g8);border:1px dashed var(--g7);border-radius:var(--rad);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--g5)}
+.ad-lb{height:88px;margin-bottom:22px}
+.ad-rect{height:250px;margin-bottom:0;flex-direction:column;gap:6px;font-size:14px}
+.ad-sky{height:600px;flex-direction:column;gap:6px;font-size:14px}
+
+/* SECTION HEADING */
+.sec-head{font-family:var(--fd);font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--r);border-bottom:2px solid var(--r);padding-bottom:6px;margin-bottom:18px}
+
+/* HERO */
+.hero-card{background:#111;border-radius:var(--rad);overflow:hidden;min-height:420px;position:relative;display:flex;align-items:flex-end;cursor:pointer;margin-bottom:24px}
+.hero-card:hover .hero-title{text-decoration:underline;text-underline-offset:3px}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.4}
+.hero-grad{position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,5,.97) 30%,rgba(5,5,5,.5) 65%,rgba(5,5,5,.05) 100%)}
+.hero-content{position:relative;z-index:2;padding:28px 30px;width:100%}
+.hero-badge{display:inline-block;font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:3px 10px;border-radius:2px;margin-bottom:10px;background:var(--r);color:#fff}
+.hero-badge.breaking{background:#111;border:1px solid var(--r)}
+.hero-title{font-family:var(--fh);font-size:30px;font-weight:900;color:#fff;line-height:1.22;margin-bottom:8px}
+.hero-excerpt{font-size:14px;color:rgba(255,255,255,.72);line-height:1.6;max-width:680px}
+.hero-date{font-family:var(--fd);font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.08em;margin-top:10px}
+
+/* CARD GRID */
+.card-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:22px}
+@media(max-width:640px){.card-grid{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:var(--rad);overflow:hidden;cursor:pointer;transition:transform .18s,box-shadow .18s;box-shadow:0 1px 5px rgba(0,0,0,.07);display:flex;flex-direction:column}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(0,0,0,.13)}
+.card-thumb{width:100%;height:176px;object-fit:cover;background:var(--g8)}
+.card-thumb-ph{width:100%;height:176px;background:linear-gradient(135deg,#5c000222,#111);display:flex;align-items:center;justify-content:center;font-size:34px}
+.card-body{padding:15px;flex:1;display:flex;flex-direction:column}
+.card-comp{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:5px}
+.card-title{font-family:var(--fh);font-size:16px;font-weight:700;line-height:1.3;margin-bottom:7px;color:var(--dk)}
+.card-exc{font-size:13px;color:var(--g4);line-height:1.52;flex:1}
+.card-foot{margin-top:12px;padding-top:10px;border-top:1px solid var(--g8);font-family:var(--fd);font-size:11px;color:var(--g5);text-transform:uppercase;letter-spacing:.04em}
+
+/* LIST VIEW */
+.list-item{display:flex;gap:13px;padding:13px 0;border-bottom:1px solid var(--g7);cursor:pointer;transition:background .14s;border-radius:4px}
+.list-item:hover{background:#efe9df;padding:13px 8px;margin:0 -8px}
+.list-thumb{width:82px;height:62px;object-fit:cover;border-radius:3px;flex-shrink:0;background:var(--g7)}
+.list-thumb-ph{width:82px;height:62px;flex-shrink:0;background:linear-gradient(135deg,#5c000222,#111);border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:18px}
+.list-info{flex:1;min-width:0}
+.list-title{font-family:var(--fh);font-size:14px;font-weight:700;line-height:1.3;color:var(--dk);margin-bottom:4px}
+.list-meta{font-family:var(--fd);font-size:11px;color:var(--g5);text-transform:uppercase;letter-spacing:.04em}
+
+/* COMPETITION FILTER */
+.comp-filter{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.cf-btn{font-family:var(--fd);font-size:12px;font-weight:700;padding:6px 14px;border:2px solid var(--r);border-radius:3px;color:var(--r);background:#fff;transition:all .14s;text-transform:uppercase;letter-spacing:.05em}
+.cf-btn:hover,.cf-btn.on{background:var(--r);color:#fff}
+
+/* PAGINATION */
+.pag{display:flex;justify-content:center;gap:7px;margin:22px 0}
+.pag-btn{background:#fff;border:2px solid var(--g7);color:var(--dk2);padding:7px 13px;border-radius:3px;font-family:var(--fd);font-size:13px;font-weight:700;transition:all .14s}
+.pag-btn:hover,.pag-btn.on{background:var(--r);border-color:var(--r);color:#fff}
+
+/* SIDEBAR */
+.sidebar{display:flex;flex-direction:column;gap:20px}
+.widget{background:#fff;border-radius:var(--rad);padding:18px;box-shadow:0 1px 5px rgba(0,0,0,.06)}
+.w-title{font-family:var(--fd);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--r);border-bottom:2px solid var(--r);padding-bottom:7px;margin-bottom:14px}
+.soc-follow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sf-btn{display:flex;align-items:center;gap:7px;padding:9px 12px;border-radius:4px;font-family:var(--fd);font-size:12px;font-weight:700;letter-spacing:.04em;color:#fff;transition:transform .14s;text-decoration:none}
+.sf-btn:hover{transform:translateY(-2px)}
+.sf-btn svg{width:15px;height:15px;flex-shrink:0}
+.sf-fb{background:#1877F2}
+.sf-x{background:#000}
+.sf-sky{background:#0085ff}
+.sf-th{background:#111}
+.sf-yt{background:#FF0000;grid-column:span 2;justify-content:center}
+.recent-post{display:flex;gap:9px;padding:9px 0;border-bottom:1px solid var(--g8);cursor:pointer}
+.recent-post:last-child{border-bottom:none}
+.recent-post:hover .rp-title{color:var(--r)}
+.rp-thumb{width:58px;height:44px;object-fit:cover;border-radius:3px;flex-shrink:0;background:var(--g7)}
+.rp-thumb-ph{width:58px;height:44px;flex-shrink:0;background:linear-gradient(135deg,#5c000222,#111);border-radius:3px}
+.rp-title{font-family:var(--fh);font-size:13px;font-weight:700;line-height:1.3;color:var(--dk);transition:color .14s}
+.rp-date{font-family:var(--fd);font-size:10px;color:var(--g5);text-transform:uppercase;margin-top:3px}
+.season-row{display:grid;grid-template-columns:26px 1fr auto;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--g8);font-family:var(--fd);font-size:13px}
+.season-row:last-child{border-bottom:none}
+.season-icon{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff}
+.cat-item{padding:7px 0;border-bottom:1px solid var(--g8)}
+.cat-item:last-child{border-bottom:none}
+.cat-item a{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--dk2);transition:color .14s}
+.cat-item a:hover{color:var(--r)}
+.cat-count{font-family:var(--fd);font-size:11px;color:var(--g5);font-weight:700;background:var(--g8);padding:1px 8px;border-radius:10px}
+
+/* ARTICLE MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:999;padding:20px;overflow-y:auto;align-items:flex-start;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal-box{background:#fff;border-radius:var(--rad);max-width:820px;width:100%;margin:auto;padding:36px;position:relative;max-height:90vh;overflow-y:auto}
+.modal-close{position:absolute;top:14px;right:14px;background:var(--r);color:#fff;border:none;width:32px;height:32px;border-radius:50%;font-size:18px;display:flex;align-items:center;justify-content:center}
+.mod-comp{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px}
+.mod-title{font-family:var(--fh);font-size:28px;font-weight:900;line-height:1.2;margin-bottom:8px}
+.mod-date{font-family:var(--fd);font-size:12px;color:var(--g5);text-transform:uppercase;letter-spacing:.08em;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--g8)}
+.mod-img{width:100%;max-height:400px;object-fit:cover;border-radius:4px;margin-bottom:22px}
+.mod-body{font-size:16px;line-height:1.85;color:#2a2a2a}
+.mod-body p{margin-bottom:1em}
+.share-bar{margin-top:24px;padding-top:18px;border-top:1px solid var(--g8);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.share-lbl{font-family:var(--fd);font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--g5)}
+.sh-btn{padding:7px 16px;border-radius:3px;font-family:var(--fd);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:none;color:#fff;cursor:pointer}
+.sh-fb{background:#1877F2}
+.sh-x{background:#000}
+.sh-copy{background:#333}
+
+/* CMS PANEL */
+.cms-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:9000}
+.cms-overlay.open{display:flex;flex-direction:column}
+.cms-panel{width:100%;height:100%;display:flex;flex-direction:column;background:#13151c;color:#e8e8e8}
+.cms-topbar{background:#0d0f16;border-bottom:2px solid var(--r);padding:12px 24px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.cms-brand{font-family:var(--fd);font-size:18px;font-weight:800;color:#fff;display:flex;align-items:center;gap:10px}
+.cms-brand-tag{background:var(--r);color:#fff;padding:3px 10px;border-radius:3px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.cms-x{background:none;border:none;color:var(--g6);font-size:24px;padding:4px;transition:color .14s}
+.cms-x:hover{color:#fff}
+.cms-tabs{background:#0d0f16;border-bottom:1px solid #252730;padding:0 24px;display:flex;overflow-x:auto;flex-shrink:0}
+.cms-tab{font-family:var(--fd);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g5);background:none;border:none;border-bottom:3px solid transparent;padding:12px 16px;transition:all .14s;white-space:nowrap}
+.cms-tab:hover{color:#e8e8e8}
+.cms-tab.on{color:var(--gold);border-bottom-color:var(--gold)}
+.cms-body{flex:1;overflow:hidden;display:flex}
+.cms-pane{display:none;flex:1;overflow-y:auto;padding:24px;flex-direction:column;gap:18px}
+.cms-pane.on{display:flex}
+
+/* CMS Cards */
+.cms-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:700px){.cms-stats{grid-template-columns:repeat(2,1fr)}}
+.cms-stat{background:#1e2130;border-radius:4px;padding:16px 18px;border-left:3px solid var(--r)}
+.cms-stat-n{font-family:var(--fd);font-size:30px;font-weight:800;color:var(--gold);margin-bottom:4px}
+.cms-stat-l{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g5)}
+.cms-box{background:#1e2130;border-radius:4px;padding:18px}
+.cms-box-title{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2a2a35}
+
+/* CMS Buttons */
+.btn{border:none;padding:9px 18px;border-radius:4px;font-family:var(--fd);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;transition:opacity .14s;cursor:pointer;line-height:1}
+.btn:hover{opacity:.85}
+.btn-gold{background:var(--gold);color:#111}
+.btn-red{background:#c0392b;color:#fff}
+.btn-gray{background:#333;color:#ccc}
+.btn-green{background:#27ae60;color:#fff}
+.btn-blue{background:#2471a3;color:#fff}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap}
+
+/* CMS Article list */
+.cms-art-list{display:flex;flex-direction:column;gap:8px}
+.cms-art-row{background:#1e2130;border-radius:4px;padding:12px 16px;display:flex;align-items:center;gap:12px;border-left:3px solid transparent;transition:border-color .14s}
+.cms-art-row:hover{border-left-color:var(--r)}
+.cms-art-info{flex:1;min-width:0}
+.cms-art-title{font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px;color:#e8e8e8}
+.cms-art-meta{font-family:var(--fd);font-size:10px;color:var(--g5);text-transform:uppercase;letter-spacing:.05em}
+.cms-art-btns{display:flex;gap:7px;flex-shrink:0}
+.cms-art-btn{border:none;padding:5px 12px;border-radius:3px;font-family:var(--fd);font-size:11px;font-weight:800;letter-spacing:.06em;cursor:pointer;transition:opacity .14s}
+.cms-art-btn:hover{opacity:.8}
+.art-edit{background:var(--gold);color:#111}
+.art-del{background:#c0392b;color:#fff}
+
+/* CMS Editor */
+.ed-layout{display:grid;grid-template-columns:1fr 310px;gap:20px}
+@media(max-width:900px){.ed-layout{grid-template-columns:1fr}}
+.ed-form{display:flex;flex-direction:column;gap:14px}
+.ed-field label{display:block;font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g6);margin-bottom:5px}
+.ed-field input,.ed-field textarea,.ed-field select{width:100%;background:#1c1f2a;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:10px 13px;border-radius:4px;font-family:var(--fb);font-size:14px;transition:border-color .14s}
+.ed-field input:focus,.ed-field textarea:focus,.ed-field select:focus{outline:none;border-color:var(--r)}
+.ed-field select option{background:#1c1f2a}
+.ed-field textarea{min-height:200px;resize:vertical;line-height:1.7}
+.ed-row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pv-panel{background:#191c27;border-radius:4px;padding:18px;border:1px solid #2a2d3a;position:sticky;top:20px}
+.pv-panel h4{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #2a2d3a}
+.pv-img{width:100%;height:120px;object-fit:cover;border-radius:3px;margin-bottom:10px;background:#2a2d3a}
+.pv-comp{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:7px}
+.pv-title{font-family:var(--fh);font-size:17px;font-weight:700;line-height:1.3;color:#fff;margin-bottom:8px}
+.pv-date{font-family:var(--fd);font-size:10px;color:var(--g5);text-transform:uppercase;margin-bottom:10px}
+.pv-exc{font-size:13px;color:#999;line-height:1.6}
+
+/* CMS Ticker */
+.ticker-ed-list{background:#1e2130;border-radius:4px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.tick-row{display:flex;gap:10px;align-items:center;background:#13151c;border-radius:3px;padding:10px 13px}
+.tick-inp{flex:1;background:#1e2130;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:8px 11px;border-radius:4px;font-family:var(--fb);font-size:13px}
+.tick-inp:focus{outline:none;border-color:var(--gold)}
+.tick-del{background:#c0392b;border:none;color:#fff;width:26px;height:26px;border-radius:50%;font-size:15px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+/* CMS Social */
+.soc-ed-list{background:#1e2130;border-radius:4px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.soc-ed-row{display:flex;align-items:center;gap:12px;background:#13151c;border-radius:3px;padding:11px 14px}
+.soc-ed-icon{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px;color:#fff}
+.soc-ed-lbl{font-family:var(--fd);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#ccc;min-width:90px}
+.soc-ed-inp{flex:1;background:#1e2130;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:9px 13px;border-radius:4px;font-family:var(--fb);font-size:13px}
+.soc-ed-inp:focus{outline:none;border-color:var(--gold)}
+
+/* Toast */
+.toast{position:fixed;bottom:24px;right:24px;background:#27ae60;color:#fff;padding:12px 20px;border-radius:4px;font-family:var(--fd);font-size:13px;font-weight:700;z-index:9999;pointer-events:none;transform:translateY(70px);opacity:0;transition:all .3s}
+.toast.show{transform:translateY(0);opacity:1}
+.toast.err{background:#c0392b}
+
+/* FOOTER */
+.footer{background:#191919;color:#888;padding:46px 0 22px;margin-top:44px}
+.footer-in{max-width:1280px;margin:0 auto;padding:0 20px}
+.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px;margin-bottom:36px}
+@media(max-width:700px){.ft-grid{grid-template-columns:1fr}}
+.ft-logo{font-family:var(--fd);font-size:20px;font-weight:800;color:#fff;text-transform:uppercase;margin-bottom:10px}
+.ft-desc{font-size:13px;line-height:1.6;color:#555;max-width:260px}
+.ft-head{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.ft-links{list-style:none}
+.ft-links li{margin-bottom:7px}
+.ft-links a{color:#555;font-size:13px;transition:color .14s}
+.ft-links a:hover{color:var(--gold)}
+.ft-soc-row{display:flex;gap:9px;margin-top:10px}
+.ft-soc-btn{width:34px;height:34px;border-radius:50%;background:#2a2a2a;display:flex;align-items:center;justify-content:center;font-size:13px;color:#888;transition:background .14s;text-decoration:none}
+.ft-soc-btn:hover{background:var(--r);color:#fff}
+.ft-bottom{border-top:1px solid #282828;padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-family:var(--fd);font-size:11px;letter-spacing:.04em;color:#444}
+.ft-bottom a{color:#444;transition:color .14s}
+.ft-bottom a:hover{color:var(--gold)}
+
+
+/* ── PREMIER LEAGUE PAGE ── */
+.pl-hero{background:linear-gradient(135deg,#0d0d1a 0%,#1a0505 50%,#0a0a15 100%);border-radius:var(--rad);padding:32px 28px;margin-bottom:24px;position:relative;overflow:hidden}
+.pl-hero::before{content:'';position:absolute;inset:0;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="30" fill="%23DB000708"/><circle cx="80" cy="80" r="40" fill="%23C19A3508"/></svg>') center/cover}
+.pl-hero-inner{position:relative;z-index:1}
+.pl-hero-badge{display:inline-block;background:var(--r);color:#fff;font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:12px}
+.pl-hero-title{font-family:var(--fh);font-size:32px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:8px}
+.pl-hero-sub{font-family:var(--fd);font-size:14px;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;margin-bottom:20px}
+.pl-stats-strip{display:flex;flex-wrap:wrap;gap:10px}
+.pl-stat-pill{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:10px 16px;text-align:center;min-width:72px}
+.psp-n{display:block;font-family:var(--fd);font-size:22px;font-weight:800;color:#fff;line-height:1}
+.psp-l{display:block;font-family:var(--fd);font-size:9px;color:#888;letter-spacing:.12em;text-transform:uppercase;margin-top:3px}
+.pl-layout{display:grid;grid-template-columns:1fr 310px;gap:22px}
+@media(max-width:900px){.pl-layout{grid-template-columns:1fr}}
+.pl-main{display:flex;flex-direction:column;gap:20px}
+.pl-side{display:flex;flex-direction:column;gap:20px}
+
+/* Form strip */
+.form-strip{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.form-bubble{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:13px;font-weight:800;color:#fff;flex-shrink:0}
+.fb-w{background:#27ae60}
+.fb-d{background:#f39c12}
+.fb-l{background:#e74c3c}
+
+/* Results table */
+.results-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.results-table{width:100%;border-collapse:collapse;font-size:13px}
+.results-table th{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g5);padding:8px 10px;text-align:left;border-bottom:2px solid var(--g7);white-space:nowrap;background:#fafafa}
+.results-table td{padding:9px 10px;border-bottom:1px solid var(--g8);vertical-align:middle}
+.results-table tr:hover{background:#fdf8f0}
+.results-table tr:last-child td{border-bottom:none}
+.gw-cell{font-family:var(--fd);font-size:10px;font-weight:700;color:var(--g5);white-space:nowrap;text-transform:uppercase;letter-spacing:.08em}
+.date-cell{font-family:var(--fd);font-size:11px;color:var(--g5);white-space:nowrap}
+.opp-cell{font-weight:600;white-space:nowrap}
+.score-cell{font-family:var(--fd);font-size:14px;font-weight:800;text-align:center;white-space:nowrap}
+.scorer-cell{font-size:12px;color:var(--g4);max-width:200px}
+.venue-h{display:inline-block;background:var(--r);color:#fff;font-family:var(--fd);font-size:10px;font-weight:800;padding:2px 7px;border-radius:3px;text-transform:uppercase;letter-spacing:.08em}
+.venue-a{display:inline-block;background:var(--dk2);color:#fff;font-family:var(--fd);font-size:10px;font-weight:800;padding:2px 7px;border-radius:3px;text-transform:uppercase;letter-spacing:.08em}
+.res-badge{display:inline-block;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:11px;font-weight:800;color:#fff}
+.res-w{background:#27ae60}
+.res-d{background:#f39c12}
+.res-l{background:#e74c3c}
+.res-u{background:#bbb}
+
+/* Mini Table */
+.mini-table-wrap{overflow-x:auto}
+.mini-table{width:100%;border-collapse:collapse;font-size:12px}
+.mini-table th{font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g5);padding:5px 6px;text-align:center;border-bottom:2px solid var(--g7);background:#fafafa}
+.mini-table th:nth-child(2){text-align:left}
+.mini-table td{padding:7px 6px;border-bottom:1px solid var(--g8);text-align:center;font-size:12px}
+.mini-table td:nth-child(2){text-align:left;white-space:nowrap}
+
+/* Top scorers */
+.scorer-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--g8)}
+.scorer-row:last-child{border-bottom:none}
+.scorer-avatar{width:38px;height:38px;border-radius:50%;object-fit:cover;border:2px solid var(--g7);flex-shrink:0;background:var(--g8)}
+.scorer-info{flex:1;min-width:0}
+.scorer-name{font-weight:700;font-size:13px;margin-bottom:4px}
+.scorer-pos{font-family:var(--fd);font-size:10px;color:var(--g5);font-weight:700;background:var(--g8);padding:1px 6px;border-radius:3px;letter-spacing:.06em;text-transform:uppercase;margin-left:4px}
+.scorer-bar-wrap{background:var(--g8);border-radius:4px;height:5px;overflow:hidden}
+.scorer-bar{background:var(--r);height:5px;border-radius:4px;transition:width .4s ease}
+.scorer-goals{font-family:var(--fd);font-size:20px;font-weight:800;color:var(--r);min-width:28px;text-align:right}
+
+/* Highlights grid */
+.hl-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hl-item{background:var(--g8);border-radius:4px;padding:12px}
+.hl-n{font-family:var(--fd);font-size:20px;font-weight:800;color:var(--r);line-height:1;margin-bottom:4px}
+.hl-l{font-size:11px;color:var(--g4);line-height:1.4}
+
+/* Fixtures */
+.fixture-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--g8)}
+.fixture-item:last-of-type{border-bottom:none}
+.fix-date{font-family:var(--fd);font-size:10px;color:var(--g5);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;min-width:76px}
+.fix-match{flex:1;font-size:13px;font-weight:600}
+.fix-h{color:var(--r);font-weight:800}
+
+
+/* ── SHARE SHEET ─────────────────────────────────── */
+.share-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9500;align-items:flex-end;justify-content:center}
+.share-overlay.open{display:flex}
+.share-sheet{background:#fff;width:100%;max-width:560px;border-radius:20px 20px 0 0;padding:0 0 env(safe-area-inset-bottom,0);box-shadow:0 -8px 40px rgba(0,0,0,.2);animation:slideUp .28s cubic-bezier(.22,1,.36,1)}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.share-handle{width:44px;height:5px;background:var(--g7);border-radius:3px;margin:12px auto 0}
+.share-sheet-head{padding:16px 22px 12px;border-bottom:1px solid var(--g8)}
+.share-sheet-title{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--g5);margin-bottom:4px}
+.share-sheet-art{font-family:var(--fh);font-size:15px;font-weight:700;line-height:1.3;color:var(--dk);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.share-platforms{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:16px 12px}
+@media(min-width:440px){.share-platforms{grid-template-columns:repeat(5,1fr)}}
+.sp-btn{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 8px;border-radius:12px;border:none;background:none;cursor:pointer;transition:background .15s}
+.sp-btn:hover{background:var(--g8)}
+.sp-icon{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;color:#fff}
+.sp-icon svg{width:24px;height:24px}
+.sp-label{font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--dk2)}
+.share-divider{border:none;border-top:1px solid var(--g8);margin:0 20px}
+.share-copy-row{display:flex;align-items:center;gap:10px;padding:14px 20px 20px}
+.share-url-box{flex:1;background:var(--g8);border:none;border-radius:8px;padding:10px 13px;font-size:13px;color:var(--g4);font-family:var(--fb);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.share-copy-btn{background:var(--r);color:#fff;border:none;border-radius:8px;padding:10px 18px;font-family:var(--fd);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:opacity .15s}
+.share-copy-btn:hover{opacity:.85}
+.share-copy-btn.copied{background:#27ae60}
+.share-close-btn{display:block;width:calc(100% - 40px);margin:0 20px 16px;padding:13px;background:var(--g8);border:none;border-radius:10px;font-family:var(--fd);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--dk2);cursor:pointer;transition:background .15s}
+.share-close-btn:hover{background:var(--g7)}
+/* Share button on cards & modal */
+.art-share-btn{background:none;border:1px solid var(--g7);border-radius:20px;padding:5px 13px;font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--g4);cursor:pointer;display:inline-flex;align-items:center;gap:5px;transition:all .15s}
+.art-share-btn:hover{border-color:var(--r);color:var(--r);background:#fff5f5}
+.art-share-btn svg{width:13px;height:13px}
+
+</style>
+</head>
+<body>
+<div class="ticker"><div class="ticker-label">&#x1F534; BREAKING</div><div class="ticker-track" id="tickerTrack"></div></div>
+<header class="mast">
+<div class="mast-in">
+<div class="logo" onclick="goHome()">
+<img class="logo-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoICAgICQkJCAgLDQoIDQcICQgBAwQEBQUFBQUFBQgFBQUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICP/AABEIAbABsAMBEQACEQEDEQH/xAAeAAEAAQQDAQEAAAAAAAAAAAAAAwECBAUGBwgJCv/EAFkQAAEDAgIHBAYECAkIBwkAAAEAAgMEEQUhBgcSMUFRYQgTcYEJFCIykaEVQrHwI1JTk8HR0uEWM1VicnSUs/EXJCZDVIKSsjRFY3Oio9MZJTU2RGSDhMP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AOHrYICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgBBYX23oNLjumMFP/GPA88/ggs0e0ygqb90/aI3jpzQb9qCqAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIKXQU2kFUFNpBFPVNaC5xsBvQdK6ca6yC6KnAyuC47r7srZ3QdRYliEkzi6RziTwvkg3urnSB9LUxv3Nc5rXjoUHqunqA4AtzB3dUEyAgICAgICAgICAgI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oJBCgvEaCQMQQyxlBAWlBFJAUGO+mKDEkpSgxpKUoIX0pQY0lIeF0GNJRu6oMZ9C7qgxpaF3VBjupDyKDGkoD1QYr6M/cIMd9E77hBg1GEk725eCDXVWi4cL2OfRBqpNDnb23QY7sGmZzQQukmbvafggfTLh9U+aC9uOcxbzQVOKs5fpQY8lS0m9zdBJDiQblb5IJTjY5BBCcW/moLDUvdub8kBlFM7gUE8ejTzvPyQZsGiB45+SDZU+A7P1fkgzGYYRwt5IMqOgd/ggyGUDuqDJjoT1QZEdCeqDKjw89UE8dAeqCeOhPVBlxUR6oJ2UR6oMiOkPVBkx0p6oMhlJ4oMplKeF0GRHSlBMynKCZkBQTNiQSiJBdsoLgxBXZQUcxBbsILTGEFroByQRmkHJBY6hHJBacPHJBY7DAgjOEtQWPwRqCI4IEFHYGEEJ0ZCCz+DI6fBBY7RcdPggj/goOSCx2iQQWfwOHRBE/QscgghdoK08B8EGPLq5jP1B8EGJLqqjP1PgEGO/VJH+KQgiOp6Ll9v60Fw1QR/ilBI3VLF+KPggyGaro+Q+CDLj1csG5o+CCVugbRwCC/8AgYBwHwQXs0NCCVmhgQSDRAdEFzdEx0+CC8aKBBMzRYIJBoyEF40dCCRujwQXjBmoJW4S1BI3DG8kF7cPHJBeKEckF4pByQXCnHJBcIgguEaC7YQV2UFbIFkBAQEBAsgpZAsgWQVsgpZAQVJQUsgWQU2EDYQNhBUDogpsIAYgGMIKd2EDuggrsoKd2EDuwgdyEFdhBQRBAEQQV7sIHdjkgd2OiBsoK26IGygoWIGygbCCuygoGIKoCBZAsgWQLIFkFUBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBB/9k=" alt="GunnersDen">
+<div><div class="logo-name">GunnersDen</div><div class="logo-sub">Arsenal FC 2025/26 Season</div></div>
+</div>
+<div class="mast-right">
+<span class="hdr-date" id="hdrDate"></span>
+<div class="soc-strip">
+<a class="soc-btn s-fb" id="soc-fb" href="#" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+<a class="soc-btn s-x" id="soc-x" href="#" target="_blank" rel="noopener" title="X (Twitter)" style="font-family:var(--fd);font-weight:900">X</a>
+<a class="soc-btn s-sky" id="soc-sky" href="#" target="_blank" rel="noopener" title="Bluesky"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204C22.439 1.266 21.434.944 18.798 2.805 16.046 4.748 13.087 8.687 12 10.8z"/></svg></a>
+<a class="soc-btn s-th" id="soc-th" href="#" target="_blank" rel="noopener" title="Threads"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.068V12c.003-5.385 3.043-9.23 8.34-10.607A11.76 11.76 0 0 1 12 1.053c.718.013 1.435.092 2.14.237C18.966 2.362 22.5 6.166 22.5 12.068c0 3.518-.85 6.372-2.497 8.423C18.15 22.795 15.395 23.976 12.186 24z"/></svg></a>
+<a class="soc-btn s-yt" id="soc-yt" href="#" target="_blank" rel="noopener" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+<!-- CMS access removed from masthead -->
+</div>
+</div>
+</div>
+</header>
+<nav class="nav"><div class="nav-in">
+<button class="nav-btn on" onclick="showPage('home',this)">Home</button>
+<button class="nav-btn" onclick="showPage('all',this)">All News</button>
+<button class="nav-btn" onclick="showPage('ucl',this)">Champions League</button>
+<button class="nav-btn" onclick="showPage('efl',this)">EFL Cup</button>
+<button class="nav-btn" onclick="showPage('fa',this)">FA Cup</button>
+    <button class="nav-btn" onclick="showPage('pl',this)">Premier League</button>
+</div></nav>
+<div class="page-wrap">
+<div class="main-grid">
+<main>
+<div id="page-home" class="page active">
+<div class="ad-slot ad-lb">Advertisement &middot; 728&times;90 Leaderboard</div>
+<div class="search-bar"><input class="search-inp" id="srch" type="search" placeholder="Search 2025/26 Arsenal news&hellip;" oninput="doSearch()"><button class="search-go" onclick="doSearch()">Search</button></div>
+<div id="homeHero"></div>
+<div class="sec-head" id="homeHeading">Latest 2025/26 Stories</div>
+<div class="card-grid" id="homeGrid"></div>
+<div class="pag" id="homePag"></div>
+</div>
+<div id="page-all" class="page">
+<div class="comp-filter" id="compFilter"></div>
+<div id="allList"></div>
+<div class="pag" id="allPag"></div>
+</div>
+<div id="page-ucl" class="page">
+<div class="sec-head">UEFA Champions League 2025/26</div>
+<div class="ad-slot ad-lb" style="margin-bottom:16px">Advertisement &middot; 728&times;90</div>
+<div class="card-grid" id="uclGrid"></div>
+</div>
+<div id="page-efl" class="page">
+<div class="sec-head">EFL Cup (Carabao Cup) 2025/26</div>
+<div class="ad-slot ad-lb" style="margin-bottom:16px">Advertisement &middot; 728&times;90</div>
+<div class="card-grid" id="eflGrid"></div>
+</div>
+<div id="page-fa" class="page">
+<div class="sec-head">FA Cup 2025/26</div>
+<div class="ad-slot ad-lb" style="margin-bottom:16px">Advertisement &middot; 728&times;90</div>
+<div class="card-grid" id="faGrid"></div>
+</div>
+
+<div id="page-pl" class="page">
+<div class="sec-head">Premier League 2025/26</div>
+<div class="ad-slot ad-lb" style="margin-bottom:16px">Advertisement &middot; 728&times;90</div>
+<div class="card-grid" id="plGrid"></div>
+</div>
+</main>
+<aside class="sidebar">
+<div class="widget"><div class="w-title">Follow Us</div><div class="soc-follow" id="socFollow"></div></div>
+<div style="background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.06)"><div class="ad-slot ad-rect" style="border-radius:var(--rad)">Advertisement<br>300&times;250</div></div>
+<div class="widget"><div class="w-title">Recent Stories</div><div id="sbRecent"></div></div>
+<div style="background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.06)"><div class="ad-slot ad-sky" style="border-radius:var(--rad)">Advertisement<br>300&times;600</div></div>
+<div class="widget">
+  <div class="w-title">2025/26 Season</div>
+  <div class="season-row"><div class="season-icon" style="background:var(--r)">&#127942;</div><div>Champions League Final</div><div style="font-weight:800;color:var(--r)">&#10003;</div></div>
+  <div class="season-row"><div class="season-icon" style="background:#555">&#129352;</div><div>EFL Cup Final</div><div style="color:var(--g5)">L 0-2</div></div>
+  <div class="season-row"><div class="season-icon" style="background:#555">&#9917;</div><div>FA Cup</div><div style="color:var(--g5)">QF exit</div></div>
+  <div class="season-row" style="border:none"><div class="season-icon" style="background:var(--r)">&#128202;</div><div>PL Position</div><div style="font-weight:800;color:var(--r)">1st</div></div>
+</div>
+<div class="wi&#x1F3C6; Premier League Table</div>
+  <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;font-size:12px">
+      <thead>
+        <tr style="background:#f5f2ee">
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">#</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:left;border-bottom:2px solid var(--g7)">Club</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">P</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">W</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">D</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">L</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">GD</th>
+          <th style="font-family:var(--fd);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--r);padding:5px 4px;text-align:center;border-bottom:2px solid var(--g7)">Pts</th>
+        </tr>
+      </thead>
+      <tbody id="sidebarPlTable"></tbody>
+    </table>
+  </div>
+  <div style="font-family:var(--fd);font-size:9px;color:var(--g5);text-transform:uppercase;letter-spacing:.08em;margin-top:8px">Updated via CMS &nbsp;·&nbsp; Source: Premier League</div></div>
+</aside>
+</div>
+<div class="ad-slot ad-lb" style="margin-top:8px">Advertisement &middot; 728&times;90</div>
+</div>
+<footer class="footer"><div class="footer-in">
+<div class="ft-grid">
+<div><div class="ft-logo">&#x1F534; GunnersDen</div><p class="ft-desc">Your home for complete Arsenal FC 2025/26 coverage &mdash; Champions League, FA Cup, EFL Cup and Premier League news.</p><div class="ft-soc-row" id="ftSocs"></div></div>
+<div><div class="ft-head">Navigate</div><ul class="ft-links"><li><a href="#" onclick="goHome()">Home</a></li><li><a href="#" onclick="showPage('all')">All News</a></li><li><a href="#" onclick="showPage('ucl')">Champions League</a></li><li><a href="#" onclick="showPage('efl')">EFL Cup</a></li><li><a href="#" onclick="showPage('fa')">FA Cup</a></li>
+          <li><a href="#" onclick="showPage('pl')">Premier League</a></li></ul></div>
+<div><div class="ft-head">Legal</div><ul class="ft-links"><li><a href="#">Privacy Policy</a></li><li><a href="#">Cookie Policy</a></li><li><a href="#">Disclaimer</a></li></ul></div>
+</div>
+<div class="ft-bottom"><span>&copy; <span id="ftYear"></span> GunnersDen. All rights reserved. Not affiliated with Arsenal FC.</span><span><a href="#">Privacy</a> | <a href="#">Cookies</a> | <a href="#" id="cmsSecretLink" style="color:#333;opacity:.3;font-size:10px" title="">Admin</a></span></div>
+</div></footer>
+
+<!-- Article Modal -->
+<div class="modal-overlay" id="artModal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">&#215;</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<!-- CMS Editor -->
+<div class="cms-overlay" id="cmsOverlay">
+<div class="cms-panel">
+<div class="cms-topbar">
+  <div class="cms-brand">&#9881; GunnersDen CMS <span class="cms-brand-tag">News Editor</span></div>
+  <button class="cms-x" onclick="closeCMS()">&#215;</button>
+</div>
+<div class="cms-tabs">
+  <button class="cms-tab on" id="tab-dash" onclick="switchTab('dash')">&#127968; Dashboard</button>
+  <button class="cms-tab" id="tab-list" onclick="switchTab('list')">&#128240; All Articles</button>
+  <button class="cms-tab" id="tab-edit" onclick="switchTab('edit')">&#9998; Write / Edit</button>
+  <button class="cms-tab" id="tab-ticker" onclick="switchTab('ticker')">&#128308; Breaking Ticker</button>
+  <button class="cms-tab" id="tab-social" onclick="switchTab('social')">&#128241; Social Links</button>
+  <button class="cms-tab" id="tab-pltable" onclick="switchTab('pltable')">&#128202; PL Table</button>
+</div>
+<div class="cms-body">
+
+<!-- DASHBOARD PANE -->
+<div class="cms-pane on" id="pane-dash">
+  <div class="cms-stats" id="cmsStats"></div>
+  <div class="cms-box">
+    <div class="cms-box-title">QUICK ACTIONS</div>
+    <div class="btn-row">
+      <button class="btn btn-gold" onclick="startNew()">+ New Article</button>
+      <button class="btn btn-blue" onclick="switchTab('ticker')">Edit Ticker</button>
+      <button class="btn btn-gray" onclick="switchTab('social')">Edit Social Links</button>
+      <button class="btn btn-red" id="resetBtn">Reset Articles</button>
+    </div>
+  </div>
+  <div class="cms-box">
+    <div class="cms-box-title">RECENT ARTICLES</div>
+    <div id="dashRecent"></div>
+  </div>
+</div>
+
+<!-- ALL ARTICLES PANE -->
+<div class="cms-pane" id="pane-list">
+  <div style="display:flex;justify-content:space-between;align-items:center">
+    <span style="font-family:var(--fd);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--g6)">MANAGING <span id="artCount" style="color:var(--gold)">0</span> ARTICLES</span>
+    <button class="btn btn-gold" onclick="startNew()">+ New Article</button>
+  </div>
+  <div class="cms-art-list" id="artListEl"></div>
+</div>
+
+<!-- EDITOR PANE -->
+<div class="cms-pane" id="pane-edit">
+  <div style="font-family:var(--fd);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)" id="edLabel">NEW ARTICLE</div>
+  <div class="ed-layout">
+    <div class="ed-form">
+      <div class="ed-field"><label>Headline *</label><input type="text" id="ed-title" placeholder="Article headline..." oninput="updPreview()"></div>
+      <div class="ed-row2">
+        <div class="ed-field"><label>Competition</label><select id="ed-comp" onchange="updPreview()"><option value="Premier League">Premier League</option><option value="UEFA Champions League">UEFA Champions League</option><option value="EFL Cup">EFL Cup</option><option value="FA Cup">FA Cup</option><option value="Season Preview">Season Preview / General</option></select></div>
+        <div class="ed-field"><label>Category Tag</label><select id="ed-cat"><option value="Premier League">Premier League</option><option value="Champions League">Champions League</option><option value="EFL Cup">EFL Cup</option><option value="FA Cup">FA Cup</option><option value="Match Report">Match Report</option><option value="Season Preview">Season Preview</option><option value="Transfers">Transfers</option><option value="Club News">Club News</option></select></div>
+      </div>
+      <div class="ed-row2">
+        <div class="ed-field"><label>Date *</label><input type="text" id="ed-date" placeholder="e.g. Wednesday, 6 May 2026" oninput="updPreview()"></div>
+        <div class="ed-field"><label>Breaking News?</label><select id="ed-brk" onchange="updPreview()"><option value="false">No</option><option value="true">Yes - Breaking</option></select></div>
+      </div>
+      <div class="ed-field"><label>Image URL</label><input type="url" id="ed-img" placeholder="https://..." oninput="updPreview()"></div>
+      <div class="ed-field"><label>Short Excerpt *</label><textarea id="ed-exc" rows="3" style="min-height:80px" placeholder="2-3 sentence summary shown on card..." oninput="updPreview()"></textarea></div>
+      <div class="ed-field"><label>Full Article Body *</label><textarea id="ed-body" placeholder="Write the full article here. Press Enter twice between paragraphs."></textarea></div>
+      <div class="btn-row">
+        <button class="btn btn-gold" onclick="saveArticle()">&#128190; Publish</button>
+        <button class="btn btn-red" id="delBtn" style="display:none" onclick="deleteArticle()">&#128465; Delete</button>
+        <button class="btn btn-gray" onclick="clearEditor()">&#10005; Clear</button>
+      </div>
+      <input type="hidden" id="ed-idx" value="-1">
+    </div>
+    <div>
+      <div class="pv-panel">
+        <h4>Live Preview</h4>
+        <div id="pvImg"></div>
+        <div class="pv-comp" id="pvComp" style="color:var(--r)"></div>
+        <div class="pv-title" id="pvTitle">Headline appears here...</div>
+        <div class="pv-date" id="pvDate"></div>
+        <div class="pv-exc" id="pvExc">Excerpt appears here...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TICKER PANE -->
+<div class="cms-pane" id="pane-ticker">
+  <div style="display:flex;justify-content:space-between;align-items:center">
+    <div>
+      <div style="font-family:var(--fd);font-size:14px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;margin-bottom:4px">BREAKING NEWS TICKER</div>
+      <div style="font-size:13px;color:var(--g5)">These headlines scroll across the top of every page. Edit, reorder or add new ones.</div>
+    </div>
+    <button class="btn btn-gold" onclick="addTickerRow()">+ Add Headline</button>
+  </div>
+  <div class="ticker-ed-list" id="tickerEdList"></div>
+  <div class="btn-row">
+    <button class="btn btn-green" onclick="saveTicker()">&#128190; Save &amp; Publish Ticker</button>
+    <button class="btn btn-gray" onclick="loadTickerEditor()">&#8634; Reset</button>
+  </div>
+</div>
+
+<!-- SOCIAL PANE -->
+<div class="cms-pane" id="pane-social">
+  <div>
+    <div style="font-family:var(--fd);font-size:14px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;margin-bottom:4px">SOCIAL MEDIA LINKS</div>
+    <div style="font-size:13px;color:var(--g5)">Enter your social media profile URLs below. Changes apply to header, sidebar and footer.</div>
+  </div>
+  <div class="soc-ed-list">
+    <div class="soc-ed-row"><div class="soc-ed-icon" style="background:#1877F2"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div><div class="soc-ed-lbl">Facebook</div><input class="soc-ed-inp" id="soc-inp-fb" type="url" placeholder="https://facebook.com/yourpage"></div>
+    <div class="soc-ed-row"><div class="soc-ed-icon" style="background:#000;font-weight:900;color:#fff">X</div><div class="soc-ed-lbl">X / Twitter</div><input class="soc-ed-inp" id="soc-inp-x" type="url" placeholder="https://x.com/yourhandle"></div>
+    <div class="soc-ed-row"><div class="soc-ed-icon" style="background:#0085ff"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204C22.439 1.266 21.434.944 18.798 2.805 16.046 4.748 13.087 8.687 12 10.8z"/></svg></div><div class="soc-ed-lbl">Bluesky</div><input class="soc-ed-inp" id="soc-inp-sky" type="url" placeholder="https://bsky.app/profile/yourhandle"></div>
+    <div class="soc-ed-row"><div class="soc-ed-icon" style="background:#111"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.068V12c.003-5.385 3.043-9.23 8.34-10.607A11.76 11.76 0 0 1 12 1.053c.718.013 1.435.092 2.14.237C18.966 2.362 22.5 6.166 22.5 12.068c0 3.518-.85 6.372-2.497 8.423C18.15 22.795 15.395 23.976 12.186 24z"/></svg></div><div class="soc-ed-lbl">Threads</div><input class="soc-ed-inp" id="soc-inp-th" type="url" placeholder="https://threads.net/@yourhandle"></div>
+    <div class="soc-ed-row"><div class="soc-ed-icon" style="background:#FF0000"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></div><div class="soc-ed-lbl">YouTube</div><input class="soc-ed-inp" id="soc-inp-yt" type="url" placeholder="https://youtube.com/@yourchannel"></div>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-green" onclick="saveSocial()">&#128190; Save Social Links</button>
+  </div>
+</div>
+
+</div>
+
+<!-- PL TABLE PANE -->
+<div class="cms-pane" id="pane-pltable">
+  <div>
+    <div style="font-family:var(--fd);font-size:14px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;margin-bottom:4px">PREMIER LEAGUE TABLE</div>
+    <div style="font-size:13px;color:var(--g5);margin-bottom:16px">Edit the Premier League table shown in the sidebar. Changes apply instantly.</div>
+  </div>
+  <div style="background:#1e2130;border-radius:4px;padding:18px">
+    <div style="display:grid;grid-template-columns:40px 1fr 44px 44px 44px 44px 54px 54px;gap:6px;align-items:center;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #2a2d3a">
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5)">#</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5)">Club</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);text-align:center">P</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);text-align:center">W</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);text-align:center">D</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);text-align:center">L</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g5);text-align:center">GD</div>
+      <div style="font-family:var(--fd);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-align:center">Pts</div>
+    </div>
+    <div id="plTableEditorRows"></div>
+    <div style="margin-top:12px">
+      <button class="btn btn-gray" onclick="addPlRow()" style="font-size:11px;padding:7px 14px">+ Add Row</button>
+    </div>
+  </div>
+  <div style="display:flex;gap:10px;margin-top:4px">
+    <button class="btn btn-green" onclick="savePlTable()">&#128190; Save &amp; Update Sidebar Table</button>
+    <button class="btn btn-gray" onclick="loadPlTableEditor()">&#8634; Reset</button>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<script>
+var POSTS_KEY="gd_posts5", TICK_KEY="gd_tick3", SOC_KEY="gd_soc3", PLT_KEY="gd_plt1";
+var DEFAULT_POSTS = [{"id": 201, "title": "Arsenal 1-0 Manchester United: Calafiori Header Wins Opening Day at Old Trafford", "category": "Premier League", "competition": "Premier League", "date": "Saturday, 16 August 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80", "excerpt": "Riccardo Calafiori's close-range header from a Declan Rice corner gave Arsenal a winning start to 2025-26, defeating Manchester United 1-0 at Old Trafford on the opening day.", "body": "Arsenal began their 2025-26 Premier League campaign in perfect fashion, defeating Manchester United 1-0 at Old Trafford on the opening day of the season. Riccardo Calafiori was the unlikely hero, heading home from close range in the 34th minute after goalkeeper Altay Bayindir failed to deal with Declan Rice's inswinging corner delivery.\n\nIt was the Italian defender's first Premier League goal for the club and extended Arsenal's unbeaten run against Manchester United in the league to six games. Viktor Gyokeres made his competitive debut from the bench in the second half, immediately drawing admiring glances with his directness and physicality.\n\nDavid Raya was barely tested, producing one comfortable save from Bruno Fernandes. Arteta said afterwards: 'A perfect start. A clean sheet away from home against a tough opponent — that is what champions do.'"}, {"id": 202, "title": "Arsenal 5-0 Leeds United: Gyokeres Brace on Emirates Home Debut Sends Title Statement", "category": "Premier League", "competition": "Premier League", "date": "Saturday, 23 August 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80", "excerpt": "Viktor Gyokeres scored twice in Arsenal's 5-0 demolition of newly promoted Leeds United at the Emirates, with Jurrien Timber netting twice and Bukayo Saka adding a clinical third.", "body": "Arsenal announced their Premier League title intentions emphatically, crushing newly promoted Leeds United 5-0 at the Emirates Stadium. Jurrien Timber scored twice from corner situations before Bukayo Saka added a clinical third. Viktor Gyokeres entered as a second-half substitute to a roaring Emirates ovation and delivered immediately — a brilliant solo run before slotting home, then converting a stoppage-time penalty.\n\n15-year-old Max Dowman came off the bench to become one of the youngest players to appear in a Premier League match, winning the penalty Gyokeres converted.\n\nThe result sent a clear signal to the division: this Arsenal side, dramatically strengthened over the summer, intended to go all the way. Arteta was glowing: 'Viktor showed exactly what he can do. The crowd gave him an incredible reception and he repaid them immediately.'"}, {"id": 203, "title": "Arsenal 3-0 Nottingham Forest: Zubimendi Brace and Gyokeres Goal in Emirates Masterclass", "category": "Premier League", "competition": "Premier League", "date": "Saturday, 13 September 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=800&q=80", "excerpt": "Martin Zubimendi scored his first brace in top-flight football and Viktor Gyokeres added a third as Arsenal thrashed Nottingham Forest 3-0, with David Raya making his 100th appearance.", "body": "Arsenal produced a scintillating performance to beat Nottingham Forest 3-0 at the Emirates, with summer signing Martin Zubimendi announcing himself to the Premier League with a stunning brace. The Spanish midfielder opened his account with a composed left-foot finish on 22 minutes before doubling the advantage from distance after the interval.\n\nViktor Gyokeres added a third in the 74th minute with a clinical near-post finish, netting his third Premier League goal in four appearances. David Raya marked his 100th Arsenal appearance with a clean sheet and two excellent second-half saves.\n\nArteta was effusive: 'Martin is a player who makes everyone around him better. His calmness and intelligence — in just a few weeks he already looks like he has been here for years.' Arsenal moved to third in the table with the victory."}, {"id": 204, "title": "Arsenal 4-1 Tottenham: Saka Double and Gyokeres Goal Deliver Emphatic Derby Win", "category": "Premier League", "competition": "Premier League", "date": "Sunday, 23 November 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80", "excerpt": "Arsenal were ruthless in the North London Derby, thrashing Tottenham 4-1 at the Emirates — Bukayo Saka scored twice, Gyokeres and Martinelli also on target in front of 60,345 fans.", "body": "Arsenal delivered a statement performance in the North London Derby, thrashing Tottenham Hotspur 4-1 at a packed Emirates Stadium before the season's highest home attendance of 60,345. Viktor Gyokeres opened the scoring in the 11th minute with a predatory header, before Bukayo Saka doubled the lead with a typical cut-inside finish in the 34th minute.\n\nSpurs pulled one back through Heung-min Son's composed finish, but Saka extinguished any comeback hopes with a spectacular long-range effort that flew into the top corner on 56 minutes. Gabriel Martinelli completed the rout in the 81st minute, converting Eze's perfectly weighted through ball.\n\nIt was Arsenal's most comprehensive derby win in years. Arteta: 'The stadium was incredible today. The crowd gave us an unbelievable platform and the players responded. This is what Arsenal fans deserve to see.'"}, {"id": 205, "title": "Arsenal 4-0 Aston Villa: Gyokeres Brace Fires Gunners to the Top of the Premier League", "category": "Premier League", "competition": "Premier League", "date": "Tuesday, 30 December 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1551958219-acbc84b66f7c?w=800&q=80", "excerpt": "A dominant 4-0 win over Aston Villa on 30 December put Arsenal top of the Premier League heading into 2026 — Gyokeres scored twice, Havertz and Eze also on target.", "body": "Arsenal ended 2025 in perfect fashion, dismantling Aston Villa 4-0 at the Emirates to move to the top of the Premier League table. Viktor Gyokeres opened the scoring in the 9th minute with a brilliant first-time finish and doubled his tally in the 34th minute with a composed chip. Kai Havertz added a third on 56 minutes with a powerful downward header before Eberechi Eze completed the rout with a sweeping left-foot curler into the top corner in the 87th minute — one of the goals of the season.\n\nComing against a Villa side that had been genuine top-four contenders, the result sent an unmistakeable message to Arsenal's title rivals. Arsenal topped the table on goal difference over Liverpool, with Manchester City two further points behind.\n\nArteta: 'This is a big win. We played with intensity, quality and ruthlessness for 90 minutes. Happy New Year — let's go and win something in 2026.'"}, {"id": 206, "title": "Arsenal 3-0 Chelsea: Rice Brace and Gyokeres Goal Extend Title Lead to Nine Points", "category": "Premier League", "competition": "Premier League", "date": "Saturday, 14 March 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=800&q=80", "excerpt": "Declan Rice scored twice and Viktor Gyokeres added a third as Arsenal crushed Chelsea 3-0 at the Emirates, extending their Premier League lead to nine points with eight games left.", "body": "Arsenal produced a display of near-perfect Premier League football, crushing Chelsea 3-0 at the Emirates to extend their lead at the top to nine points. Viktor Gyokeres opened the scoring in the 22nd minute with a predatory finish after goalkeeper Sanchez had spilled a Rice cross. Rice then doubled the advantage in the 48th minute with a powerful driving run before firing low into the corner — his seventh Premier League goal of the season.\n\nRice struck again in the 80th minute, arriving late to convert an Eze cutback for his second of the match, sending the Emirates into rapture. It was Rice's first Premier League brace for the club.\n\nThe Chelsea manager was gracious: 'Arsenal were outstanding. On that form, they are the best team in England.' Arteta: 'We have built this lead through hard work, every single day. Now we must protect it and finish the job.'"}, {"id": 207, "title": "Arsenal Lead the Premier League by 5 Points — Title Race Goes to the Wire", "category": "Premier League", "competition": "Premier League", "date": "Sunday, 4 May 2026", "breaking": true, "img": "https://images.unsplash.com/photo-1508098682722-e99c643e7485?w=800&q=80", "excerpt": "Arsenal sit 5 points clear of Manchester City at the top of the Premier League with three games remaining — the first title since the Invincibles in 2003-04 is tantalisingly within reach.", "body": "Arsenal stand on the brink of their first Premier League title since the legendary Invincibles season of 2003-04, leading the table by five points over Manchester City with just three games remaining in 2025-26.\n\nThe Gunners' 76 points from 35 games represents their best tally at this stage of a season since that historic unbeaten campaign. A victory in any of their final three fixtures — West Ham (H, 10 May), Nottingham Forest (A, 17 May) or the final-day showdown against Manchester City (H, 24 May) — would guarantee the title regardless of City's results.\n\nViktor Gyokeres leads the club's scoring charts with 14 Premier League goals, while Bukayo Saka (10), Gabriel Martinelli (8) and Declan Rice (7) have provided consistent threat. The mathematics are simple: two wins and Arsenal are champions. Arteta: 'I believe in this group more than I have ever believed in anything in my career. We are ready. We go and finish the job.'"}, {"id": 1, "title": "🏆 HISTORY: Arsenal Reach Champions League Final for the First Time in 20 Years", "category": "Champions League", "competition": "UEFA Champions League", "date": "Wednesday, 6 May 2026", "breaking": true, "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80", "excerpt": "Bukayo Saka's 44th-minute strike against Atlético Madrid seals a 2-1 aggregate triumph and sends Arsenal to Budapest for the Champions League final — their first since 2006.", "body": "Arsenal Football Club has reached the UEFA Champions League final for the first time in 20 years, defeating Atlético Madrid 2-1 on aggregate in a tense two-legged semi-final. Bukayo Saka's composed 44th-minute strike at a thunderous Emirates Stadium on Tuesday 6 May 2026 — poking home after Jan Oblak had initially denied Leandro Trossard — secured a historic 1-0 second-leg victory and sent the Gunners to the Puskás Aréna in Budapest for the showpiece on Saturday 30 May 2026.\\n\\nArsenal will now face Paris Saint-Germain, who defeated Bayern Munich 6-5 on aggregate in the other semi-final. It will be Arsenal's second ever Champions League final appearance, and their first since they lost 2-1 to Barcelona in Paris in 2006.\\n\\nThe first leg at the Riyadh Air Metropolitano had ended 1-1, with Viktor Gyökeres converting a penalty on 44 minutes after being fouled by David Hancko, before Julián Alvarez levelled for Atlético from the spot on 55 minutes following a handball by Ben White. A third penalty, initially awarded for a foul on Eberechi Eze in the 77th minute, was controversially overturned by VAR, keeping the tie level at 1-1.\\n\\nIn the second leg, Arsenal dominated the first half with high pressing and quick transitions. After Atlético's Julián Alvarez swept a dangerous cross wide in the 8th minute, Saka fired the Gunners ahead just before the interval — reacting fastest after Oblak had parried Trossard's effort — to send the Emirates into rapture.\\n\\nDespite sustained Atlético pressure in the second half — Antoine Griezmann testing Raya and Lookman wasting a gilt-edged chance — Arsenal defended with discipline and determination. Arsenal's victory extended their unbeaten Champions League run to 14 fixtures this season, a new club record. The Gunners had already made history as the first team to win all eight matches in the Champions League league phase.\\n\\nMikel Arteta, visibly emotional at full-time: 'These players, this club, this crowd — they all deserve this. Twenty years of waiting. We go to Budapest to win.' Bukayo Saka, who scored in both semi-final legs, said: 'This is what we dream about. We've worked so hard. We're not done yet.'"}, {"id": 2, "title": "Arsenal vs PSG: Champions League Final Preview — Can the Gunners Make History in Budapest?", "category": "Champions League", "competition": "UEFA Champions League", "date": "Thursday, 7 May 2026", "breaking": true, "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80", "excerpt": "Arsenal face Paris Saint-Germain in the Champions League final in Budapest on May 30 — a chance to win the club's first ever European Cup. Everything you need to know.", "body": "The 2025-26 UEFA Champions League final is set: Arsenal vs Paris Saint-Germain at the Puskás Aréna in Budapest, Hungary, on Saturday 30 May 2026, kick-off 5pm UK time (6pm CET).\\n\\nArsenal arrive in Budapest as the form team of the competition. Mikel Arteta's side went through the entire league phase unbeaten — the first club in Champions League history to win all eight league phase matches — scoring 23 goals and conceding just four. In the knockouts, they defeated Bayer Leverkusen 3-1 on aggregate (1-1 away, 2-0 at home), Sporting CP 1-0 on aggregate, and Atlético Madrid 2-1 on aggregate in the semi-finals. Arsenal remain unbeaten in all 14 Champions League fixtures this season — another new club record.\\n\\nPSG, the defending champions, overcame Monaco in the play-offs, before eliminating Chelsea 8-2 on aggregate in the last 16 and Liverpool 4-0 on aggregate in the quarter-finals. Their semi-final victory over Bayern Munich, which they won 6-5 on aggregate in a spectacular tie, confirmed their status as the most dangerous team in Europe.\\n\\nThe final is a rematch of the 2024-25 semi-final in which PSG defeated Arsenal 3-1 on aggregate, eventually going on to win the trophy. Arsenal also defeated PSG 2-0 in the 2025-26 league phase, however, demonstrating that Arteta's side have the quality to beat the Parisians.\\n\\nKey battles to watch: Bukayo Saka vs Achraf Hakimi, Viktor Gyökeres vs the PSG defensive block, and Declan Rice's role in disrupting the PSG midfield. The Opta supercomputer gives Arsenal a 55.76% chance of winning, reflecting their extraordinary defensive record — just six goals conceded in 14 matches, with nine clean sheets.\\n\\nArteta: 'We've worked for three years to get here. We know it will be the biggest night of our careers. But we know we can win it.' For Arsenal fans, Saturday May 30 is the date. History is waiting."}, {"id": 3, "title": "Arsenal 1-0 Atlético Madrid (2-1 Agg): Saka's Goal Sends Gunners to Champions League Final", "category": "Champions League", "competition": "UEFA Champions League", "date": "Wednesday, 6 May 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1508098682722-e99c643e7485?w=800&q=80", "excerpt": "Bukayo Saka's 44th-minute close-range finish at the Emirates sealed a 2-1 aggregate semi-final victory over Atlético Madrid and booked Arsenal's place in the Champions League final.", "body": "Arsenal reached the UEFA Champions League final for the first time since 2006 with a hard-fought 1-0 victory over Atlético Madrid at the Emirates Stadium, winning 2-1 on aggregate. The decisive moment arrived just before half-time when captain Bukayo Saka reacted fastest to a rebound from Jan Oblak's save to sweep the ball home from close range.\\n\\nThe match began cautiously, with both sides aware of the stakes. Atlético had the first real chance as early as the 8th minute, when Julián Alvarez swept a Giuliano Simeone cross wide of goal. Arsenal gradually grew into the game and began pinning Atlético back with their characteristic high press.\\n\\nSaka provided the breakthrough in the 44th minute. Leandro Trossard drove into the penalty area and struck a low shot that Oblak parried to his right — but Saka was alert to the rebound and poked the ball home emphatically at close range. The Emirates erupted.\\n\\nIn the second half, Diego Simeone's side came out with purpose. Antoine Griezmann's curling effort forced a save from Raya in the 56th minute, and substitute Lookman squandered a chance at close range, shooting straight at the goalkeeper. Arsenal defended with the composure of a team who have been forged by three successive seasons of near-misses.\\n\\nArsenal's defensive record throughout the competition has been remarkable — 18 clean sheets in their last 24 home European matches. Bukayo Saka became the fourth English player to score in two consecutive Champions League semi-final campaigns, after Wayne Rooney, Frank Lampard and Harry Kane.\\n\\nArteta: 'I am so proud. This club, these fans, these players. We do it the right way — together. We go to Budapest and we go to win.' Jan Oblak, the Atlético keeper, was gracious: 'Arsenal were better. They deserve to be in the final.'"}, {"id": 4, "title": "Atlético Madrid 1-1 Arsenal: Gyökeres Penalty Cancels Out Alvarez Spot-Kick in Tense First Leg", "category": "Champions League", "competition": "UEFA Champions League", "date": "Tuesday, 29 April 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=800&q=80", "excerpt": "Arsenal drew 1-1 in Madrid in the Champions League semi-final first leg as both goals came from the penalty spot. Viktor Gyökeres converted for the Gunners before Julián Alvarez equalised.", "body": "Arsenal drew 1-1 in the first leg of their UEFA Champions League semi-final against Atlético Madrid at the Riyadh Air Metropolitano on Tuesday 29 April 2026, leaving the tie perfectly poised ahead of the second leg at the Emirates Stadium on 6 May.\\n\\nThe match, played in a vibrant and intimidating atmosphere in the Spanish capital, was dominated by VAR controversy. Arsenal broke the deadlock in the 44th minute when Viktor Gyökeres was brought down inside the penalty area by David Hancko and coolly converted from 12 yards — his 19th goal of the season in all competitions.\\n\\nBut Arsenal's lead lasted less than 15 minutes. Atlético were awarded their own penalty in the 55th minute after a shot from Marcos Llorente struck the arm of Ben White, and Julián Alvarez — who has scored 25 goals in his Champions League career, the fewest games of any South American to reach that milestone — stepped up to equalise from the spot.\\n\\nArsenal thought they had won a decisive penalty in the 77th minute when Eberechi Eze appeared to be fouled inside the box, only for a lengthy VAR review to overturn the referee's initial decision. The match was the first Champions League knockout-stage game in which two goals were scored and 100% came from the penalty spot since the 2001 final between Bayern Munich and Valencia.\\n\\nDavid Raya was outstanding in the second half, keeping out Griezmann and Lookman to maintain Arsenal's position of strength heading into the second leg. Arteta: 'The first leg is never the full story. We know what we have to do at the Emirates.'"}, {"id": 5, "title": "Arsenal 2-0 Leverkusen (3-1 Agg): Eze and Rice Send Gunners Into Champions League Quarter-Finals", "category": "Champions League", "competition": "UEFA Champions League", "date": "Monday, 17 March 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=800&q=80", "excerpt": "Eberechi Eze scored a stunning first Champions League goal and Declan Rice added a second as Arsenal beat Bayer Leverkusen 2-0 to advance 3-1 on aggregate into the quarter-finals.", "body": "Arsenal marched into the UEFA Champions League quarter-finals with a commanding 2-0 victory over Bayer Leverkusen at the Emirates Stadium on Monday 17 March 2026, winning 3-1 on aggregate. Summer signing Eberechi Eze scored his first Champions League goal with a stunning curling effort in the 36th minute, before Declan Rice sealed the victory in the 63rd minute to send the Gunners into the last eight.\\n\\nThe tie had been delicately balanced following a 1-1 draw in the first leg at the BayArena in Leverkusen, where former Arsenal loanee Kai Havertz had scored for the Gunners before Leverkusen equalised. With the tie level, Arsenal knew they needed to impose their will at the Emirates, and they did exactly that.\\n\\nEze, who joined from Crystal Palace for £60m in the summer, produced a moment of individual brilliance to open the scoring — cutting inside from the left and bending a right-footed effort into the far corner past the helpless Lukáš Hrádecký. The Emirates went wild.\\n\\nRice's goal 27 minutes later, a composed finish from the edge of the box after Ødegaard's precise layoff, ensured a comfortable progression. Leverkusen, who had been Bundesliga champions two seasons prior under Xabi Alonso, offered little in the second half as Arsenal defended with characteristic discipline.\\n\\nArteta: 'Eze's goal was magnificent. He has shown all season that he is a player who can produce moments of magic. Now we look forward to the quarter-finals.' Arsenal's Champions League record this season: Played 10, Won 9, Drawn 1, Lost 0 — still unbeaten."}, {"id": 6, "title": "Arsenal Progress to Champions League Quarter-Finals After 1-0 Aggregate Win Over Sporting CP", "category": "Champions League", "competition": "UEFA Champions League", "date": "Wednesday, 8 April 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80", "excerpt": "Arsenal edged past Sporting CP 1-0 on aggregate in the Champions League quarter-finals to set up a semi-final showdown with Atlético Madrid.", "body": "Arsenal advanced to the UEFA Champions League semi-finals with a hard-fought 1-0 aggregate victory over Sporting CP in the quarter-finals. The tie, played over two legs in late March and early April 2026, proved to be Arsenal's most challenging knockout tie of the campaign, with the Gunners relying on defensive resilience and a single goal across 180 minutes to progress.\\n\\nThe first leg at the Emirates had finished goalless after a tense encounter in which both sides had chances. In the second leg at the Estádio José Alvalade in Lisbon, Arsenal produced a disciplined, composed performance — defending deep when required and threatening on the counter-attack. A goal at the right moment proved decisive, with the Gunners finishing the tie 1-0 on aggregate.\\n\\nThis was Arsenal's seventh consecutive match in the Champions League knockout stages without defeat, a testament to the defensive organisation Arteta has instilled. Throughout the campaign, Arsenal conceded just six goals in all 12 matches played to that point — an extraordinary record of clean-sheet football at the highest level.\\n\\nThe victory set up a tantalising semi-final clash with Atlético Madrid, managed by Diego Simeone — the master of defensive football. Arteta: 'We showed different qualities tonight. We needed to defend and we did. Now we face Atlético and we cannot wait.'"}, {"id": 7, "title": "Arsenal Are Champions League Group Phase Champions — Perfect 8/8 Record, First in History", "category": "Champions League", "competition": "UEFA Champions League", "date": "Tuesday, 28 January 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1551958219-acbc84b66f7c?w=800&q=80", "excerpt": "Arsenal became the first club in Champions League history to win all eight league phase matches, topping the 36-team table with 23 goals scored and just four conceded.", "body": "Arsenal Football Club made history by becoming the first club in UEFA Champions League history to win all eight matches in the expanded league phase, finishing first in the 36-team table with 24 points from 24. The Gunners scored 23 goals across the eight games and conceded just four — a record of dominance without parallel in the competition's history.\\n\\nThe campaign began on 16 September 2025 with a 2-0 victory away at Athletic Bilbao — a statement of intent from the very opening night of Europe. Subsequent victories followed against Olympiacos (2-0 at Emirates), Atlético Madrid (4-0 at Emirates on 26 October — one of the highlights of the group stage), Bayern Munich (3-1 at Emirates on 30 November), Slavia Prague (3-0 away), Club Brugge (3-0 away, with a special goal from Noni Madueke), and Kairat Almaty (3-2 at Emirates in the final group game).\\n\\nThe 4-0 demolition of Atlético Madrid at the Emirates on 26 October was particularly significant — a result that would later fuel confidence heading into the semi-final rematch in April. Gyökeres scored twice in that game, showcasing the clinical finishing that has made him one of the most feared strikers in Europe.\\n\\nViktor Gyökeres finished as top scorer in the group phase with six goals, while Bukayo Saka (4), Gabriel Martinelli (3) and Declan Rice (3) all contributed. Arsenal's defensive record — David Raya conceding just four times — was the best of any side in the competition.\\n\\nArteta: 'Eight games, eight wins. This is an historic achievement for Arsenal Football Club. But it means nothing if we don't go on and win this competition. The job is not done.'"}, {"id": 8, "title": "Arsenal 0-2 Manchester City: O'Reilly Double Denies Gunners at Wembley in EFL Cup Final", "category": "EFL Cup", "competition": "EFL Cup", "date": "Sunday, 22 March 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=800&q=80", "excerpt": "Arsenal's EFL Cup final dream ended at Wembley as 21-year-old Nico O'Reilly scored twice in four second-half minutes to hand Manchester City a 2-0 victory and a ninth League Cup title.", "body": "Arsenal's hopes of winning the EFL Cup ended in heartbreak at Wembley Stadium on Sunday 22 March 2026, as Manchester City's 21-year-old full-back Nico O'Reilly scored two second-half headers in the space of four minutes to claim a 2-0 victory for Pep Guardiola's side before 88,486 fans.\\n\\nArsenal had dominated the first half, creating the better chances and looking the more threatening side. Viktor Gyökeres had a goal-bound effort blocked by James Trafford, while Bukayo Saka came close on two occasions. But the Gunners were unable to convert their pressure into goals, and City punished them ruthlessly after the interval.\\n\\nThe opener arrived in the 60th minute in the most damaging of circumstances: goalkeeper Kepa Arrizabalaga — starting in place of David Raya for this cup game — failed to hold a Riyad Mahrez cross, and O'Reilly needed no second invitation to tap into an empty net. Just four minutes later, a perfect cross from Matheus Nunes found O'Reilly unmarked at the back post to head home his second, sending the Manchester City end of Wembley delirious.\\n\\nArsenal threw everything at a comeback. Riccardo Calafiori struck the post, and Gabriel Jesus hit the crossbar with a powerful header, but City held firm. It was Arsenal's fourth consecutive League Cup final defeat and their sixth League Cup final as runners-up — a record of Wembley heartbreak that will not sit easily with Arteta or the supporters.\\n\\nO'Reilly, who celebrated his 21st birthday the previous day, became the third youngest player to score twice in a League Cup final. Guardiola, winning his fifth League Cup as City manager — a record — was gracious in victory: 'Arsenal were the better team in the first half, but the Cup final can turn on moments.'\\n\\nArteta: 'We are deeply disappointed. But we are still fighting for two more trophies. We dust ourselves down and we go again.' Arsenal led the Premier League by nine points over City at the time of the final, with the two sides due to meet in the league on 19 April."}, {"id": 9, "title": "Arsenal Beat Chelsea 4-2 on Aggregate to Reach EFL Cup Final — Havertz Goal Completes Job", "category": "EFL Cup", "competition": "EFL Cup", "date": "Monday, 3 February 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=800&q=80", "excerpt": "Kai Havertz's stoppage-time goal in the second leg at the Emirates sealed a 4-2 aggregate EFL Cup semi-final victory over Chelsea, sending Arsenal to Wembley.", "body": "Arsenal booked their place in the 2026 EFL Cup final with a 1-0 second-leg victory over Chelsea at the Emirates Stadium on Monday 3 February 2026, winning 4-2 on aggregate. Kai Havertz, the former Chelsea striker, had the last word — heading home a Declan Rice cross deep into stoppage time to spark scenes of celebration in north London.\\n\\nThe first leg at Stamford Bridge on 14 January had been a thrilling 3-2 Arsenal victory. Ben White opened the scoring with a header before Viktor Gyökeres tapped in from close range to double the lead. Chelsea, with Alejandro Garnacho causing problems throughout, pulled two goals back through Garnacho to make it 2-2, only for Martín Zubimendi to score a late, decisive third — his first goal for the club — to give Arsenal a crucial advantage heading into the home leg.\\n\\nIn the second leg at the Emirates, Arsenal were dominant but unable to find a breakthrough in normal time. Chelsea's Robert Sánchez denied Piero Hincapié with a top-corner save, and Enzo Fernandez fired a tame effort into the arms of Kepa. With Chelsea unable to fashion a clear chance that would have brought the tie level, Arteta introduced Havertz as a late substitute — and the German made an immediate impact, meeting Rice's deep cross with a perfectly timed header to complete a famous victory.\\n\\nArteta: 'Kai is a big player for us. He came on, he made the difference. That is what champions do.' The victory sent Arsenal to their first major cup final since the 2020 FA Cup, setting up a mouth-watering clash with Manchester City at Wembley on 22 March."}, {"id": 10, "title": "Southampton 2-1 Arsenal: FA Cup Quarter-Final Shock Ends Gunners' Wembley Double Dream", "category": "FA Cup", "competition": "FA Cup", "date": "Saturday, 4 April 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80", "excerpt": "Championship side Southampton dumped Arsenal out of the FA Cup quarter-finals with a 2-1 victory at St Mary's Stadium, ending the Gunners' hopes of a domestic cup double.", "body": "Arsenal's FA Cup quarter-final dream was ended by a remarkable performance from Championship side Southampton at St Mary's Stadium on Saturday 4 April 2026. The Saints won 2-1 in a result that shocked English football and confirmed Arsenal's elimination from the competition at the last-eight stage.\\n\\nSouthampton, who defeated Doncaster Rovers, Leicester City and Fulham to reach the quarter-finals, were inspired throughout by the quality of a side fighting for Championship promotion, with the home crowd creating an intimidating atmosphere. Shea Charles opened the scoring with a composed finish past Kepa in the 24th minute, and despite Arsenal equalising through Gabriel Martinelli early in the second half, a penalty from Ross Stewart in the 73rd minute won the tie for the underdogs.\\n\\nArsenal, who had been in impressive form since the EFL Cup final defeat, were unable to recover from the setback of conceding a second goal. Without the injured Jurriën Timber, and with Arteta resting several key players given their Champions League quarter-final the following week, the Gunners paid a heavy price for their rotation.\\n\\nThe result came just 12 days after the 2-0 EFL Cup final defeat to Manchester City at Wembley — back-to-back cup final and quarter-final exits that raised uncomfortable questions about whether Arteta's squad had the depth to compete on all fronts simultaneously.\\n\\nArsenal had reached the quarter-final stage with victories over Portsmouth (4-1 in the third round — Martinelli hattrick), Wigan Athletic (4-0 in the fourth round) and Mansfield Town (2-1 in the fifth round — goals from Noni Madueke and Eberechi Eze).\\n\\nArteta was measured in defeat: 'We are disappointed but we must focus on what is ahead — the Premier League title and the Champions League. That is where this squad's energy must now go.'"}, {"id": 11, "title": "Arsenal Beat Mansfield Town 2-1 to Reach FA Cup Quarter-Finals for First Time in Six Years", "category": "FA Cup", "competition": "FA Cup", "date": "Saturday, 7 March 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80", "excerpt": "Noni Madueke and Eberechi Eze goals secured a 2-1 FA Cup fifth round win at Mansfield, sending Arsenal into the last eight for the first time since 2020.", "body": "Arsenal battled to a 2-1 FA Cup fifth round victory at League One side Mansfield Town's One Call Stadium on Saturday 7 March 2026, earning a place in the quarter-finals for the first time in six years. Noni Madueke opened the scoring with a clinical near-post finish in the 34th minute, with Eberechi Eze doubling the advantage after a clever turn and driven shot from the edge of the box on 67 minutes.\\n\\nMansfield, who had already sensationally knocked out Burnley in the fourth round to earn their first FA Cup victory over top-flight opposition since 1969, provided a stern test and pulled one back through Nathan Bishop's long-range free-kick in the 78th minute. The final stages were nervy for the Gunners, but they held on.\\n\\nArteta made seven changes from the Champions League round-of-16 second leg against Leverkusen, giving fringe players valuable minutes. Max Dowman, Arsenal's 15-year-old academy prodigy, came off the bench in the second half to widespread acclaim from the crowd — his involvement another reminder of the extraordinary depth Arsenal have developed.\\n\\nThe win set up a quarter-final trip to Championship side Southampton at St Mary's Stadium — a tie that would prove to be Arsenal's FA Cup exit point.\\n\\nArteta: 'We did what we needed to do. Noni and Ebere were excellent. Now we focus on the quarter-final.' Madueke, often criticised since his £48.5m summer arrival, was in buoyant form: 'I always believed in myself. I'm just grateful for the opportunities.'"}, {"id": 12, "title": "Martinelli Hattrick in Portsmouth Thrashing — Arsenal Begin FA Cup Campaign in Style", "category": "FA Cup", "competition": "FA Cup", "date": "Sunday, 11 January 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80", "excerpt": "Gabriel Martinelli scored a hattrick as Arsenal beat Portsmouth 4-1 away in the FA Cup third round, despite an Andrés Dozzell own goal opener giving the home side a shock lead.", "body": "Arsenal launched their 2025-26 FA Cup campaign with a resounding 4-1 victory at Championship side Portsmouth's Fratton Park on Sunday 11 January 2026. Gabriel Martinelli was the star of the show with a brilliant hattrick, overcoming an early shock that saw the home side take the lead.\\n\\nColby Bishop stunned the Arsenal support by stabbing Portsmouth ahead with a close-range finish past Kepa Arrizabalaga in the 7th minute — a reminder of the famous FA Cup's capacity to produce surprises. But Arsenal responded with authority. An André Dozzell own goal levelled matters before Martinelli, deployed as a centre-forward in the absence of Gyökeres, took over.\\n\\nThe Brazilian winger completed his hattrick with goals in the 34th, 61st and 78th minutes — three goals of contrasting quality, ranging from a poacher's finish to a sweeping left-foot drive that left the Portsmouth goalkeeper with no chance. Noni Madueke missed a penalty that would have made it 5-1, but the comprehensive 4-1 victory was never in doubt.\\n\\nArteta rotated significantly, with David Raya rested in favour of Kepa, and Martin Ødegaard absent from the squad. The performance demonstrated Arsenal's remarkable squad depth, with Martinelli — often deployed on the left wing in league action — demonstrating his clinical eye for goal in a central role.\\n\\nThe result sent Arsenal into the FA Cup fourth round, where they were drawn at home to League One side Wigan Athletic."}, {"id": 13, "title": "Arsenal 4-0 Wigan Athletic: Dominant FA Cup Fourth Round Win — Gyökeres and Saka Star", "category": "FA Cup", "competition": "FA Cup", "date": "Sunday, 15 February 2026", "breaking": false, "img": "https://images.unsplash.com/photo-1508098682722-e99c643e7485?w=800&q=80", "excerpt": "Arsenal swept aside League One Wigan Athletic 4-0 in the FA Cup fourth round with a comprehensive Emirates performance to reach the fifth round.", "body": "Arsenal produced a ruthless, professional FA Cup fourth round performance at the Emirates Stadium on Sunday 15 February 2026, dismissing League One side Wigan Athletic 4-0 with minimal fuss. Viktor Gyökeres (2), Bukayo Saka and Gabriel Martinelli were on the scoresheet as the Gunners eased into the fifth round.\\n\\nGyökeres opened the scoring on 18 minutes with a composed first-time finish from Eze's precise cutback, before Saka doubled the lead on 32 minutes with a curling right-foot effort from the edge of the penalty area that arrowed into the top corner. Martinelli added a third shortly before half-time with a sharp turn and clinical finish, and Gyökeres completed his brace in the 67th minute after Wigan's goalkeeper failed to deal with a Rice long-range shot.\\n\\nArteta again rotated his squad, with Raya, Timber, Ødegaard and Rice all rested in preparation for upcoming Premier League and Champions League commitments. Youngster Max Dowman was handed his third competitive appearance of the season and drew admiring glances with his intelligent pressing and fearless running.\\n\\nWigan, managed by former Arsenal reserve player Shaun Derry, were no match for the quality arrayed against them, but they competed with spirit and were applauded off by the Emirates crowd at full-time.\\n\\nThe result set up a fifth round trip to League One side Mansfield Town — a seemingly straightforward tie that would prove more testing than expected."}, {"id": 14, "title": "Port Vale 0-2 Arsenal: EFL Cup Third Round Win Kicks Off Carabao Cup Campaign", "category": "EFL Cup", "competition": "EFL Cup", "date": "Wednesday, 24 September 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=800&q=80", "excerpt": "Arsenal began their EFL Cup campaign with an efficient 2-0 victory at League One side Port Vale, with two goals from summer signings demonstrating the squad's depth.", "body": "Arsenal began their 2025-26 EFL Cup campaign with a composed 2-0 victory away at League One side Port Vale on Wednesday 24 September 2025. The Gunners, entering the competition in the third round as Premier League participants in UEFA competitions, made efficient work of the task at Vale Park.\\n\\nMikel Arteta made wholesale changes from his Premier League starting side, handing opportunities to fringe players including Kepa Arrizabalaga in goal, Cristhian Mosquera in defence, and Christian Nørgaard, Kai Havertz, Reiss Nelson and Gabriel Jesus among the outfield starters.\\n\\nNørgaard opened the scoring on 27 minutes — his first competitive goal for the club — with a composed side-footed finish from the edge of the box following a Havertz through ball. Havertz himself doubled the lead on 63 minutes with a powerful left-footed strike that gave the Port Vale goalkeeper no chance.\\n\\nThe result was a satisfying start for a competition Arsenal had last won in 1993. More importantly, it provided competitive minutes for players on the periphery of Arteta's first team plans, with players like Mosquera, Nørgaard and Kepa impressing sufficiently to suggest they would contribute meaningfully throughout the season.\\n\\nArteta: 'We came here to win and we did. Every player that came in tonight showed they are ready. That is what we need from a squad — competition for places.'"}, {"id": 15, "title": "Arsenal 2-0 Brighton: Gyökeres and Eze Fire Gunners Into EFL Cup Quarter-Finals", "category": "EFL Cup", "competition": "EFL Cup", "date": "Saturday, 1 November 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=800&q=80", "excerpt": "Viktor Gyökeres and Eberechi Eze scored to give Arsenal a 2-0 EFL Cup fourth round victory over Brighton at the Emirates, progressing comfortably to the quarter-finals.", "body": "Arsenal progressed to the 2025-26 EFL Cup quarter-finals with a straightforward 2-0 victory over Brighton & Hove Albion at the Emirates Stadium on Saturday 1 November 2025. Viktor Gyökeres and Eberechi Eze provided the goals in a performance that, while not spectacular, was professional and controlled.\\n\\nGyökeres scored his ninth goal of the season — in all competitions — with a precise finish on 37 minutes, latching onto a Ødegaard through ball and slotting coolly past the Brighton goalkeeper. Eze, who had been in fine form since his summer arrival from Crystal Palace, added a second on 71 minutes with a dribble and clinical drive that flew into the top corner.\\n\\nBrighton had their moments — particularly from Kaoru Mitoma and Yankuba Minteh — but David Raya was barely tested, producing two comfortable saves when called upon. Arsenal's defensive shape throughout was excellent, with Cristhian Mosquera impressing on his domestic cup debut.\\n\\nThe quarter-final draw pitted Arsenal at home against Crystal Palace — a tie that would provide a meaningful test of the Gunners' Carabao Cup credentials.\\n\\nArteta: 'We managed the game well. We didn't need to take risks. Brighton are a good side and we are happy to be in the quarter-finals.'"}, {"id": 16, "title": "Arsenal 2-1 Crystal Palace: EFL Cup Quarter-Final Victory Sets Up Chelsea Semi-Final", "category": "EFL Cup", "competition": "EFL Cup", "date": "Wednesday, 17 December 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80", "excerpt": "Arsenal overcame Crystal Palace 2-1 in the EFL Cup quarter-final at the Emirates to set up a two-legged semi-final against London rivals Chelsea.", "body": "Arsenal defeated Crystal Palace 2-1 in the EFL Cup quarter-final at the Emirates Stadium on Wednesday 17 December 2025, earning a semi-final tie against Chelsea. It was a testing evening for Arteta's side, with Palace providing stiffer resistance than their Premier League form suggested they would.\\n\\nKai Havertz gave Arsenal the lead on 22 minutes with a clever first-time finish from a Saka cross — the German continuing his impressive cup form. Palace, still reeling from their shock third round FA Cup exit to non-league Macclesfield earlier in the season, responded immediately through Jean-Philippe Mateta, who headed home from a corner on 35 minutes.\\n\\nThe decisive moment came on 67 minutes when Viktor Gyökeres controlled a difficult cross-field pass from Rice, shrugged off his marker, and struck a precise low drive into the bottom corner. Palace pushed for an equaliser in the closing stages but Arsenal's defensive resilience held firm.\\n\\nThe draw for the semi-final produced a mouth-watering London derby against Chelsea over two legs — first leg at Stamford Bridge on 14 January 2026, second leg at the Emirates on 3 February 2026.\\n\\nArteta: 'Crystal Palace made it tough for us tonight. But we found a way to win and that is the mentality we need. A London semi-final against Chelsea is special.'"}, {"id": 17, "title": "Arsenal 3-1 Bayern Munich: Champions League League Phase Masterclass at Emirates", "category": "Champions League", "competition": "UEFA Champions League", "date": "Sunday, 30 November 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1551958219-acbc84b66f7c?w=800&q=80", "excerpt": "Arsenal beat Bayern Munich 3-1 in a Champions League league phase masterclass, with Gyökeres, Rice and Saka all scoring in a stunning Emirates performance.", "body": "Arsenal produced one of their finest European performances of recent years, defeating Bayern Munich 3-1 at the Emirates Stadium on Sunday 30 November 2025 in the UEFA Champions League league phase. Gyökeres (2), Declan Rice and Bukayo Saka were all among the goals in a display of devastating quality against the German giants.\\n\\nViktor Gyökeres opened the scoring on 18 minutes with a classic centre-forward finish — a powerful header from a Lewis-Skelly cross. Bayern equalised through Harry Kane on 35 minutes, but Arsenal re-established their lead before half-time when Declan Rice drove forward from midfield and struck a precise 25-yard effort into the bottom corner — his trademark thunderous long-range attempt.\\n\\nBukayo Saka, returning from injury, was irrepressible throughout. His speed and dribbling repeatedly stretched Bayern's defence, and he scored Arsenal's third in the 71st minute with a characteristic cut-inside and left-foot finish from the right channel.\\n\\nThe victory extended Arsenal's perfect league phase record to five wins from five, putting them on course for the historic 8/8 campaign they would ultimately achieve. It was particularly notable given the calibre of opposition — Bayern Munich, the Bundesliga leaders and perennial Champions League contenders.\\n\\nArteta: 'This is the level we aspire to play at every week. The atmosphere tonight was extraordinary — the fans gave us a platform and the players delivered.' Declan Rice: 'I love playing in these games. The Emirates on a European night is the best atmosphere in football.'"}, {"id": 18, "title": "Arsenal 4-0 Atlético Madrid: Gyökeres Brace in Dominant Champions League Group Stage Win", "category": "Champions League", "competition": "UEFA Champions League", "date": "Sunday, 26 October 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=800&q=80", "excerpt": "Viktor Gyökeres scored twice in a 4-0 Champions League group stage thrashing of Atlético Madrid — a result that would prove significant months later when the sides met in the semi-final.", "body": "Arsenal delivered a statement Champions League league phase performance, demolishing a full-strength Atlético Madrid side 4-0 at the Emirates Stadium on Sunday 26 October 2025. Viktor Gyökeres scored twice, with Bukayo Saka and Gabriel Martinelli also on the scoresheet in a result that emphatically announced Arsenal's European ambitions to the continent.\\n\\nThe scale of the victory was particularly remarkable given Atlético's reputation for defensive organisation under Diego Simeone. But Arsenal's pressing, pace and technical quality overwhelmed the Spanish side from the first whistle.\\n\\nSaka opened the scoring in the 12th minute with a precision drive into the far corner from Ødegaard's clever pass, before Gyökeres doubled the lead on 34 minutes with a superb first-time finish from a Myles Lewis-Skelly cutback. Martinelli added a third with a close-range strike on 56 minutes after brilliant link-up play with Eze, before Gyökeres completed his brace on 78 minutes with a cool chip over the advancing goalkeeper.\\n\\nThe 4-0 result put Arsenal top of the Champions League league phase table and signalled clearly to Europe that this version of Arteta's side was capable of defeating anyone on their day. Months later, meeting Atlético again in the semi-final, this result provided Arsenal's players with significant psychological confidence.\\n\\nArteta: 'We played with intensity, intelligence and quality for 90 minutes. This is the standard we must now set as our minimum.' Gyökeres: 'I came here to win trophies and nights like this remind me why I chose Arsenal.'"}, {"id": 19, "title": "Athletic Bilbao 0-2 Arsenal: Eze and Havertz Open Champions League Season in Style", "category": "Champions League", "competition": "UEFA Champions League", "date": "Tuesday, 16 September 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=800&q=80", "excerpt": "Arsenal opened their 2025-26 Champions League campaign with an away win at Athletic Bilbao, as Eberechi Eze and Kai Havertz goals secured a dominant 2-0 victory in the Basque Country.", "body": "Arsenal began their 2025-26 UEFA Champions League campaign with an impressive 2-0 victory away at Athletic Bilbao at the Estadio San Mamés on Tuesday 16 September 2025 — setting the tone for what would become an historic unbeaten European campaign.\\n\\nEberechi Eze, making his Champions League debut as an Arsenal player, opened the scoring on 31 minutes with a delightful finish from the edge of the area — a low, drilled right-foot effort that gave Unai Simón no chance. The goal was Eze's first in European competition and drew widespread praise for the quality of his first-touch control and composure in front of goal.\\n\\nKai Havertz doubled the lead on 67 minutes with a characteristic striker's goal — arriving late into the penalty area from a midfield position to apply a first-time finish to Martin Ødegaard's precise through ball. It was Havertz's second Champions League goal for the club, having scored in the group stage the previous season.\\n\\nArsenal controlled the game throughout, with David Raya producing a routine performance that required him to make just two straightforward saves. Martín Zubimendi, making his Champions League debut, was outstanding — his defensive work rate and passing range drawing gasps of admiration from the watching media.\\n\\nThis was also Arsenal's first Champions League match of their 40th European campaign, and only the second time in history they have started a European campaign away from home. They passed the test with flying colours.\\n\\nArteta: 'We showed exactly what we want to be in Europe. A team that is difficult to play against and clinical in front of goal. Ebere's debut goal was magnificent.'"}, {"id": 20, "title": "Season Preview 2025-26: Can Arsenal Finally Win the Premier League and Champions League?", "category": "Season Preview", "competition": "General", "date": "Saturday, 16 August 2025", "breaking": false, "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80", "excerpt": "After three consecutive Premier League runners-up finishes and a Champions League semi-final exit, Arsenal begin the 2025-26 season with the strongest squad in the club's modern history. But can they finally deliver?", "body": "This is the season. After three agonising Premier League runners-up finishes in 2023, 2024 and 2025, and a Champions League semi-final exit to PSG last May, Mikel Arteta's Arsenal enter 2025-26 with the strongest, most complete squad the club has assembled in the modern era. The question is no longer whether Arsenal belong among Europe's elite — they clearly do. The question is whether they can go all the way.\\n\\nThe summer transfer window has been transformational. Seven major signings arrived at the Emirates:\\n\\n• Kepa Arrizabalaga (£5m from Chelsea) — backup goalkeeper with Champions League experience\\n• Martín Zubimendi (£55.8m from Real Sociedad) — the elite defensive midfielder Arsenal have needed for years\\n• Christian Nørgaard (£10m from Brentford) — intelligent, experienced squad midfielder\\n• Noni Madueke (£48.5m from Chelsea) — versatile attacking threat on the wings\\n• Cristhian Mosquera (£13.1m from Valencia) — young, talented central defender\\n• Viktor Gyökeres (£55.5m from Sporting CP) — the prolific, world-class striker Arteta has long demanded\\n• Eberechi Eze (£60m from Crystal Palace) — creative, dribbling genius to unlock defences\\n\\nTotal summer expenditure: approximately £248m. A statement of intent. Jorginho, Tierney, Tomiyasu, Partey, Zinchenko and others have all departed, freeing the path for the new arrivals.\\n\\nThe spine of the side remains world-class: Raya in goal, Saliba and Gabriel at centre-back, Timber at right-back, Lewis-Skelly at left-back, Rice and Zubimendi in central midfield, Ødegaard as captain and playmaker, Saka and Martinelli on the wings, and now Gyökeres as the No.9 who has been missing.\\n\\nThis is the season Arsenal win something significant. The only question is: how much?"}];
+
+var DEFAULT_TICKER = [
+  "HISTORY: Arsenal reach Champions League Final for first time in 20 years - face PSG in Budapest 30 May 2026",
+  "Premier League: Arsenal lead by 5 points with 3 games remaining - 76pts from 35 games played",
+  "EFL Cup Final result: Arsenal 0-2 Manchester City - Nico O'Reilly double at Wembley on 22 March 2026",
+  "FA Cup: Arsenal knocked out in quarter-final 2-1 by Championship Southampton at St Mary's",
+  "UCL History: Arsenal first club to win all 8 Champions League league phase matches - perfect record",
+  "Champions League route: 8/8 league phase - Leverkusen 3-1 - Sporting 1-0 - Atletico Madrid 2-1",
+  "Viktor Gyokeres: Arsenal top scorer with 19 goals across all competitions this 2025/26 season"
+];
+var DEFAULT_SOC = {fb:"",x:"",sky:"",thread:"",yt:""};
+
+function getPosts(){try{var s=localStorage.getItem(POSTS_KEY);return s?JSON.parse(s):DEFAULT_POSTS;}catch(e){return DEFAULT_POSTS;}}
+function setPosts(p){localStorage.setItem(POSTS_KEY,JSON.stringify(p));}
+function getTicker(){try{var s=localStorage.getItem(TICK_KEY);return s?JSON.parse(s):DEFAULT_TICKER;}catch(e){return DEFAULT_TICKER;}}
+function setTicker(t){localStorage.setItem(TICK_KEY,JSON.stringify(t));}
+function getSoc(){try{var s=localStorage.getItem(SOC_KEY);return s?JSON.parse(s):DEFAULT_SOC;}catch(e){return DEFAULT_SOC;}  }
+function setSoc(s){localStorage.setItem(SOC_KEY,JSON.stringify(s));}
+
+var searchQ = "";
+var homePg = 1, allPg = 1, allComp = "All";
+var PER_PAGE = 6;
+
+function esc(s){
+  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+// ==================== INIT ====================
+document.addEventListener("DOMContentLoaded", function(){
+  var sl = document.getElementById("cmsSecretLink");
+  if(sl){ sl.addEventListener("click", function(e){ e.preventDefault(); openCMS(); }); }
+  document.getElementById("hdrDate").textContent = new Date().toLocaleDateString("en-GB",{weekday:"long",year:"numeric",month:"long",day:"numeric"});
+  document.getElementById("ftYear").textContent = new Date().getFullYear();
+  document.getElementById("resetBtn").addEventListener("click", function(){
+    if(confirm("Reset all articles to the original default set?")){
+      localStorage.removeItem(POSTS_KEY);
+      renderAll();
+      buildSidebar();
+      showToast("Articles reset to defaults");
+    }
+  });
+  renderAll();
+  buildSidebar();
+  renderTicker();
+  renderSocialUI();
+  renderSidebarPlTable();
+});
+
+// ==================== TICKER ====================
+function renderTicker(){
+  var items = getTicker();
+  var doubled = items.concat(items);
+  var html = "";
+  for(var i=0;i<doubled.length;i++){
+    html += '<span class="ticker-item">' + esc(doubled[i]) + '</span>';
+  }
+  document.getElementById("tickerTrack").innerHTML = html;
+}
+
+// ==================== SOCIAL ====================
+function renderSocialUI(){
+  var s = getSoc();
+  var fb = s.fb||"#", x = s.x||"#", sky = s.sky||"#", th = s.thread||"#", yt = s.yt||"#";
+  setHref("soc-fb", fb); setHref("soc-x", x); setHref("soc-sky", sky); setHref("soc-th", th); setHref("soc-yt", yt);
+
+  // Sidebar social follow widget
+  var sf = document.getElementById("socFollow");
+  if(sf){
+    sf.innerHTML = 
+      '<a class="sf-btn sf-fb" href="'+fb+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Facebook</a>'+
+      '<a class="sf-btn sf-x" href="'+x+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.847L2.012 2.25h6.944l4.267 5.641zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X Twitter</a>'+
+      '<a class="sf-btn sf-sky" href="'+sky+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204C22.439 1.266 21.434.944 18.798 2.805 16.046 4.748 13.087 8.687 12 10.8z"/></svg>Bluesky</a>'+
+      '<a class="sf-btn sf-th" href="'+th+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.068V12c.003-5.385 3.043-9.23 8.34-10.607A11.76 11.76 0 0 1 12 1.053c.718.013 1.435.092 2.14.237C18.966 2.362 22.5 6.166 22.5 12.068c0 3.518-.85 6.372-2.497 8.423C18.15 22.795 15.395 23.976 12.186 24z"/></svg>Threads</a>'+
+      '<a class="sf-btn sf-yt" href="'+yt+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>YouTube</a>';
+  }
+  // Footer social
+  var ft = document.getElementById("ftSocs");
+  if(ft){
+    var links = [{h:fb,l:"F"},{h:x,l:"X"},{h:sky,l:"B"},{h:th,l:"@"},{h:yt,l:"Y"}];
+    var fhtml = "";
+    for(var i=0;i<links.length;i++){
+      fhtml += '<a class="ft-soc-btn" href="'+(links[i].h||"#")+'" target="_blank" rel="noopener">'+links[i].l+'</a>';
+    }
+    ft.innerHTML = fhtml;
+  }
+}
+function setHref(id,val){var el=document.getElementById(id);if(el)el.href=val;}
+
+// ==================== RENDER ALL ====================
+function renderAll(){
+  renderHome();
+  renderComp("plGrid","Premier League");
+  renderComp("uclGrid","Champions League");
+  renderComp("eflGrid","EFL Cup");
+  renderComp("faGrid","FA Cup");
+}
+
+// ==================== HOME PAGE ====================
+function renderHome(){
+  var posts = getPosts();
+  var q = searchQ.toLowerCase();
+  var filtered = q ? posts.filter(function(p){return (p.title+" "+(p.excerpt||"")+" "+(p.body||"")).toLowerCase().indexOf(q)>=0;}) : posts;
+  var total = filtered.length;
+  var heroPost = null;
+  for(var i=0;i<filtered.length;i++){if(filtered[i].breaking){heroPost=filtered[i];break;}}
+  if(!heroPost && filtered.length>0) heroPost = filtered[0];
+  var heroIdx = heroPost ? posts.indexOf(heroPost) : -1;
+  document.getElementById("homeHero").innerHTML = heroPost ? buildHero(heroPost, heroIdx) : "";
+  var rest = filtered.filter(function(p){return p!==heroPost;});
+  var totalPages = Math.max(1, Math.ceil(rest.length/PER_PAGE));
+  if(homePg>totalPages) homePg=1;
+  var start = (homePg-1)*PER_PAGE;
+  var slice = rest.slice(start, start+PER_PAGE);
+  var html = "";
+  for(var i=0;i<slice.length;i++){html+=buildCard(slice[i], posts.indexOf(slice[i]));}
+  document.getElementById("homeGrid").innerHTML = html;
+  buildPagination("homePag", totalPages, homePg, "homePgChange");
+  document.getElementById("homeHeading").textContent = q ? ('Search results for "'+q+'"') : "Latest 2025/26 Stories";
+}
+function homePgChange(n){homePg=n;renderHome();window.scrollTo(0,0);}
+function doSearch(){searchQ=document.getElementById("srch").value;homePg=1;renderHome();}
+
+// ==================== ALL NEWS PAGE ====================
+function renderAllPage(){
+  var posts = getPosts();
+  var comps = ["All"];
+  var seen = {};
+  for(var i=0;i<posts.length;i++){var c=posts[i].competition||"General";if(!seen[c]){comps.push(c);seen[c]=1;}}
+  var filterHtml = "";
+  for(var i=0;i<comps.length;i++){
+    filterHtml += '<button class="cf-btn'+(comps[i]===allComp?" on":"")+'" onclick="setComp(\''+esc(comps[i])+'\')">'+esc(comps[i])+'</button>';
+  }
+  document.getElementById("compFilter").innerHTML = filterHtml;
+  var filtered = allComp==="All" ? posts : posts.filter(function(p){return p.competition===allComp || p.category===allComp;});
+  var totalPages = Math.max(1,Math.ceil(filtered.length/8));
+  if(allPg>totalPages) allPg=1;
+  var slice = filtered.slice((allPg-1)*8, allPg*8);
+  var html = "";
+  for(var i=0;i<slice.length;i++){html+=buildListItem(slice[i], posts.indexOf(slice[i]));}
+  document.getElementById("allList").innerHTML = html;
+  buildPagination("allPag", totalPages, allPg, "allPgChange");
+}
+function allPgChange(n){allPg=n;renderAllPage();window.scrollTo(0,0);}
+function setComp(c){allComp=c;allPg=1;renderAllPage();}
+
+// ==================== COMPETITION PAGES ====================
+function renderComp(elId, comp){
+  var posts = getPosts().filter(function(p){return p.competition===comp||p.category===comp;});
+  var html = "";
+  var allPosts = getPosts();
+  for(var i=0;i<posts.length;i++){html+=buildCard(posts[i], allPosts.indexOf(posts[i]));}
+  var el = document.getElementById(elId);
+  if(el) el.innerHTML = html || '<p style="color:var(--g5);padding:20px;font-size:14px">No articles yet in this category.</p>';
+}
+
+// ==================== SIDEBAR ====================
+function buildSidebar(){
+  var posts = getPosts();
+  var html = "";
+  for(var i=0;i<Math.min(6,posts.length);i++){
+    var p = posts[i];
+    html += '<div class="recent-post" onclick="openArticle('+i+')">';
+    html += p.img ? '<img class="rp-thumb" src="'+esc(p.img)+'" onerror="this.style.display=\'none\'" alt="">' : '<div class="rp-thumb-ph"></div>';
+    html += '<div><div class="rp-title">'+esc(p.title.substring(0,55))+'...</div>';
+    html += '<div class="rp-date">'+esc(p.date||p.competition||"")+'</div></div></div>';
+  }
+  var sb = document.getElementById("sbRecent");
+  if(sb) sb.innerHTML = html;
+
+  // Categories
+  var cats = [["Premier League","pl"],["UEFA Champions League","ucl"],["EFL Cup","efl"],["FA Cup","fa"]];
+  var catHtml = "";
+  for(var i=0;i<cats.length;i++){
+    var c=cats[i][0], pg=cats[i][1];
+    var n = posts.filter(function(p){return p.competition===c||p.category===c;}).length;
+    catHtml += '<li class="cat-item"><a href="#" onclick="event.preventDefault();showPage(\''+pg+'\')">';
+    catHtml += '<span>'+c+'</span><span class="cat-count">'+n+'</span></a></li>';
+  }
+  var sbCats = document.getElementById("sbCats");
+  if(sbCats) sbCats.innerHTML = catHtml;
+}
+
+// ==================== HTML BUILDERS ====================
+function compColor(comp){
+  if(comp==="Premier League") return "#3d0099";
+  if(comp==="UEFA Champions League") return "#1a56db";
+  if(comp==="EFL Cup") return "#9b5700";
+  if(comp==="FA Cup") return "#166534";
+  return "var(--r)";
+}
+
+function buildHero(p, idx){
+  var cc = compColor(p.competition||p.category);
+  var badgeStyle = p.breaking ? 'background:#111;border:1px solid var(--r)' : 'background:'+cc;
+  var html = '<div class="hero-card" onclick="openArticle('+idx+')">';
+  if(p.img) html += '<img class="hero-bg" src="'+esc(p.img)+'" onerror="this.remove()" alt="">';
+  html += '<div class="hero-grad"></div>';
+  html += '<div class="hero-content">';
+  html += '<div class="hero-badge" style="'+badgeStyle+'">'+(p.breaking?"🔴 BREAKING &mdash; ":"")+esc(p.competition||p.category||"")+'</div>';
+  html += '<div class="hero-title">'+esc(p.title)+'</div>';
+  html += '<div class="hero-excerpt">'+esc(p.excerpt||"")+'</div>';
+  html += '<div class="hero-date">'+esc(p.date||"")+'</div>';
+  html += '</div></div>';
+  return html;
+}
+
+function buildCard(p, idx){
+  var cc = compColor(p.competition||p.category);
+  var html = '<div class="card" onclick="openArticle('+idx+')">';
+  if(p.img){
+    html += '<img class="card-thumb" src="'+esc(p.img)+'" onerror="this.parentNode.querySelector(\'.card-thumb\').style.display=\'none\'" alt="">';
+  } else {
+    html += '<div class="card-thumb-ph">⚽</div>';
+  }
+  html += '<div class="card-body">';
+  html += '<div class="card-comp" style="color:'+cc+'">'+(p.breaking?'🔴 ':'')+esc(p.competition||p.category||"")+'</div>';
+  html += '<div class="card-title">'+esc(p.title)+'</div>';
+  html += '<div class="card-exc">'+esc(p.excerpt||"")+'</div>';
+  html += '<div class="card-foot">'+esc(p.date||"")+'</div>';
+  html += '</div></div>';
+  return html;
+}
+
+function buildListItem(p, idx){
+  var html = '<div class="list-item" onclick="openArticle('+idx+')">';
+  if(p.img){
+    html += '<img class="list-thumb" src="'+esc(p.img)+'" onerror="this.style.display=\'none\'" alt="">';
+  } else {
+    html += '<div class="list-thumb-ph">⚽</div>';
+  }
+  html += '<div class="list-info">';
+  html += '<div class="list-title">'+esc(p.title)+'</div>';
+  html += '<div class="list-meta">'+esc(p.date||"")+' &middot; '+esc(p.competition||p.category||"")+'</div>';
+  html += '</div></div>';
+  return html;
+}
+
+function buildPagination(elId, total, current, callbackName){
+  var el = document.getElementById(elId);
+  if(!el||total<=1){if(el)el.innerHTML="";return;}
+  var html="";
+  if(current>1) html+='<button class="pag-btn" onclick="'+callbackName+'('+(current-1)+')">&#8592; Prev</button>';
+  var start=Math.max(1,current-2), end=Math.min(total,current+2);
+  for(var i=start;i<=end;i++){
+    html+='<button class="pag-btn'+(i===current?" on":"")+'" onclick="'+callbackName+'('+i+')">'+i+'</button>';
+  }
+  if(current<total) html+='<button class="pag-btn" onclick="'+callbackName+'('+(current+1)+')">Next &#8594;</button>';
+  el.innerHTML=html;
+}
+
+// ==================== ARTICLE MODAL ====================
+function openArticle(idx){
+  var posts = getPosts();
+  var p = posts[idx];
+  if(!p) return;
+  window._currentShareIdx = idx;
+  var cc = compColor(p.competition||p.category);
+  var bodyLines = (p.body||"").split("\n");
+  var bodyHtml = "";
+  for(var i=0;i<bodyLines.length;i++){
+    var line = bodyLines[i].trim();
+    if(line){bodyHtml+="<p>"+esc(line)+"</p>";}
+  }
+  var html = "";
+  if(p.img) html += '<img class="mod-img" src="'+esc(p.img)+'" onerror="this.remove()" alt="">';
+  html += '<div class="mod-comp" style="color:'+cc+'">'+esc(p.competition||p.category||"")+'</div>';
+  html += '<div class="mod-title">'+esc(p.title)+'</div>';
+  html += '<div class="mod-date">'+esc(p.date||"")+'</div>';
+  html += '<div class="mod-body">'+bodyHtml+'</div>';
+  html += '<div class="share-bar"><button class="art-share-btn" onclick="openShareCurrent()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8M16 6l-4-4-4 4M12 2v13"/></svg> Share this story</button></div>';
+  document.getElementById("modalContent").innerHTML = html;
+  document.getElementById("artModal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(){document.getElementById("artModal").classList.remove("open");document.body.style.overflow="";}
+
+// ==================== PAGE NAVIGATION ====================
+function showPage(id, btn){
+  var pages = document.querySelectorAll(".page");
+  for(var i=0;i<pages.length;i++) pages[i].classList.remove("active");
+  var el = document.getElementById("page-"+id);
+  if(el) el.classList.add("active");
+  var navBtns = document.querySelectorAll(".nav-btn");
+  for(var i=0;i<navBtns.length;i++) navBtns[i].classList.remove("on");
+  if(btn && btn.classList) btn.classList.add("on");
+  if(id==="all") renderAllPage();
+  if(id==="pl") renderComp("plGrid","Premier League");
+  if(id==="ucl") renderComp("uclGrid","Champions League");
+  if(id==="efl") renderComp("eflGrid","EFL Cup");
+  if(id==="fa") renderComp("faGrid","FA Cup");
+  if(id==="home") renderHome();
+  window.scrollTo(0,0);
+}
+function goHome(){
+  showPage("home");
+  var btns = document.querySelectorAll(".nav-btn");
+  if(btns[0]) btns[0].classList.add("on");
+}
+
+// ==================== CMS ====================
+var edIdx = -1;
+function openCMS(){
+  var pw = prompt("Enter access code:");
+  if(pw === null) return;
+  if(pw !== "481979"){
+    alert("Incorrect access code.");
+    return;
+  }
+  document.getElementById("cmsOverlay").classList.add("open");
+  document.body.style.overflow="hidden";
+  loadDashboard();
+}
+function closeCMS(){document.getElementById("cmsOverlay").classList.remove("open");document.body.style.overflow="";}
+
+function switchTab(id){
+  var panes=document.querySelectorAll(".cms-pane");
+  for(var i=0;i<panes.length;i++) panes[i].classList.remove("on");
+  var tabs=document.querySelectorAll(".cms-tab");
+  for(var i=0;i<tabs.length;i++) tabs[i].classList.remove("on");
+  var pane=document.getElementById("pane-"+id);
+  if(pane) pane.classList.add("on");
+  var tab=document.getElementById("tab-"+id);
+  if(tab) tab.classList.add("on");
+  if(id==="ticker") loadTickerEditor();
+  if(id==="social") loadSocialEditor();
+  if(id==="list") loadArtList();
+  if(id==="dash") loadDashboard();
+  if(id==="pltable") loadPlTableEditor();
+}
+
+function loadDashboard(){
+  var posts=getPosts();
+  var ucl=posts.filter(function(p){return p.competition==="UEFA Champions League";}).length;
+  var cups=posts.filter(function(p){return p.competition==="EFL Cup"||p.competition==="FA Cup";}).length;
+  var brk=posts.filter(function(p){return p.breaking;}).length;
+  document.getElementById("cmsStats").innerHTML=
+    '<div class="cms-stat"><div class="cms-stat-n">'+posts.length+'</div><div class="cms-stat-l">Total Articles</div></div>'+
+    '<div class="cms-stat" style="border-color:#1a56db"><div class="cms-stat-n">'+ucl+'</div><div class="cms-stat-l">Champions League</div></div>'+
+    '<div class="cms-stat" style="border-color:#9b5700"><div class="cms-stat-n">'+cups+'</div><div class="cms-stat-l">Domestic Cups</div></div>'+
+    '<div class="cms-stat" style="border-color:var(--gold)"><div class="cms-stat-n">'+brk+'</div><div class="cms-stat-l">Breaking News</div></div>';
+  var rhtml="";
+  for(var i=0;i<Math.min(5,posts.length);i++){
+    var p=posts[i];
+    rhtml+='<div style="display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid #252730">'+
+      '<div style="flex:1;font-size:13px;font-weight:500;color:#e8e8e8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+esc(p.title)+'</div>'+
+      '<div style="font-family:var(--fd);font-size:10px;color:var(--g5);text-transform:uppercase;white-space:nowrap;flex-shrink:0">'+esc(p.date||"")+'</div>'+
+      '<button class="cms-art-btn art-edit" onclick="editArticle('+i+')">Edit</button></div>';
+  }
+  document.getElementById("dashRecent").innerHTML=rhtml;
+}
+
+function loadArtList(){
+  var posts=getPosts();
+  document.getElementById("artCount").textContent=posts.length;
+  var html="";
+  for(var i=0;i<posts.length;i++){
+    var p=posts[i];
+    var cc=compColor(p.competition||p.category);
+    html+='<div class="cms-art-row">'+
+      '<div class="cms-art-info">'+
+      '<div class="cms-art-title">'+esc(p.title)+'</div>'+
+      '<div class="cms-art-meta">'+esc(p.date||"")+' &middot; <span style="color:'+cc+'">'+esc(p.competition||p.category||"")+'</span></div>'+
+      '</div>'+
+      (p.breaking?'<div style="background:var(--r);color:#fff;font-family:var(--fd);font-size:10px;font-weight:700;padding:2px 8px;border-radius:2px;flex-shrink:0;text-transform:uppercase;letter-spacing:.08em">BREAKING</div>':'')+
+      '<div class="cms-art-btns">'+
+      '<button class="cms-art-btn art-edit" onclick="editArticle('+i+')">&#9998; Edit</button>'+
+      '<button class="cms-art-btn art-del" onclick="deleteByIdx('+i+')">&#128465;</button>'+
+      '</div></div>';
+  }
+  document.getElementById("artListEl").innerHTML=html;
+}
+
+function editArticle(idx){
+  var posts=getPosts();var p=posts[idx];
+  document.getElementById("ed-title").value=p.title||"";
+  document.getElementById("ed-comp").value=p.competition||"UEFA Champions League";
+  document.getElementById("ed-cat").value=p.category||"Champions League";
+  document.getElementById("ed-date").value=p.date||"";
+  document.getElementById("ed-brk").value=p.breaking?"true":"false";
+  document.getElementById("ed-img").value=p.img||"";
+  document.getElementById("ed-exc").value=p.excerpt||"";
+  document.getElementById("ed-body").value=p.body||"";
+  document.getElementById("ed-idx").value=idx;
+  document.getElementById("delBtn").style.display="";
+  document.getElementById("edLabel").textContent="EDITING: "+p.title.substring(0,50)+"...";
+  switchTab("edit");
+  updPreview();
+}
+
+function startNew(){
+  clearEditor();
+  switchTab("edit");
+}
+
+function clearEditor(){
+  edIdx=-1;
+  document.getElementById("ed-title").value="";
+  document.getElementById("ed-comp").value="UEFA Champions League";
+  document.getElementById("ed-cat").value="Champions League";
+  document.getElementById("ed-date").value=new Date().toLocaleDateString("en-GB",{weekday:"long",year:"numeric",month:"long",day:"numeric"});
+  document.getElementById("ed-brk").value="false";
+  document.getElementById("ed-img").value="";
+  document.getElementById("ed-exc").value="";
+  document.getElementById("ed-body").value="";
+  document.getElementById("ed-idx").value="-1";
+  document.getElementById("delBtn").style.display="none";
+  document.getElementById("edLabel").textContent="NEW ARTICLE";
+  updPreview();
+}
+
+function updPreview(){
+  var title=document.getElementById("ed-title").value;
+  var comp=document.getElementById("ed-comp").value;
+  var date=document.getElementById("ed-date").value;
+  var exc=document.getElementById("ed-exc").value;
+  var img=document.getElementById("ed-img").value;
+  var brk=document.getElementById("ed-brk").value==="true";
+  var cc=compColor(comp);
+  document.getElementById("pvComp").textContent=(brk?"🔴 BREAKING — ":"")+comp;
+  document.getElementById("pvComp").style.color=cc;
+  document.getElementById("pvTitle").textContent=title||"Headline appears here...";
+  document.getElementById("pvDate").textContent=date;
+  document.getElementById("pvExc").textContent=exc||"Excerpt appears here...";
+  document.getElementById("pvImg").innerHTML=img?'<img class="pv-img" src="'+esc(img)+'" onerror="this.style.display=\'none\'" alt="">':'';
+}
+
+function saveArticle(){
+  var title=document.getElementById("ed-title").value.trim();
+  var body=document.getElementById("ed-body").value.trim();
+  var exc=document.getElementById("ed-exc").value.trim();
+  if(!title){showToast("Title is required","err");return;}
+  if(!body){showToast("Article body is required","err");return;}
+  if(!exc){showToast("Excerpt is required","err");return;}
+  var posts=getPosts();
+  var art={
+    id:Date.now(),
+    title:title,
+    competition:document.getElementById("ed-comp").value,
+    category:document.getElementById("ed-cat").value,
+    date:document.getElementById("ed-date").value,
+    breaking:document.getElementById("ed-brk").value==="true",
+    img:document.getElementById("ed-img").value,
+    excerpt:exc,
+    body:body
+  };
+  var idx=parseInt(document.getElementById("ed-idx").value);
+  if(idx>=0){posts[idx]=art;}else{posts.unshift(art);}
+  setPosts(posts);
+  renderAll();buildSidebar();
+  showToast(idx>=0?"Article updated!":"Article published!");
+  if(idx<0){clearEditor();}
+}
+
+function deleteByIdx(idx){
+  if(!confirm("Delete this article permanently?")) return;
+  var posts=getPosts();
+  posts.splice(idx,1);
+  setPosts(posts);
+  renderAll();buildSidebar();loadArtList();
+  showToast("Article deleted");
+}
+
+function deleteArticle(){
+  var idx=parseInt(document.getElementById("ed-idx").value);
+  if(idx<0) return;
+  deleteByIdx(idx);
+  clearEditor();
+  switchTab("list");
+}
+
+// ==================== TICKER EDITOR ====================
+function loadTickerEditor(){
+  var items=getTicker();
+  var html="";
+  for(var i=0;i<items.length;i++){
+    html+='<div class="tick-row" id="tr-'+i+'">'+
+      '<input class="tick-inp" id="ti-'+i+'" value="'+esc(items[i])+'" placeholder="Headline...">'+
+      '<button class="tick-del" onclick="this.closest(\'.tick-row\').remove()" title="Remove">&#215;</button>'+
+      '</div>';
+  }
+  document.getElementById("tickerEdList").innerHTML=html;
+}
+function addTickerRow(){
+  var list=document.getElementById("tickerEdList");
+  var n=list.children.length;
+  var div=document.createElement("div");
+  div.className="tick-row";
+  div.id="tr-"+n;
+  div.innerHTML='<input class="tick-inp" id="ti-'+n+'" placeholder="Enter new headline..."><button class="tick-del" onclick="this.closest(\'.tick-row\').remove()">&#215;</button>';
+  list.appendChild(div);
+  div.querySelector("input").focus();
+}
+function saveTicker(){
+  var inputs=document.querySelectorAll(".tick-inp");
+  var items=[];
+  for(var i=0;i<inputs.length;i++){var v=inputs[i].value.trim();if(v)items.push(v);}
+  if(!items.length){showToast("Add at least one headline","err");return;}
+  setTicker(items);
+  renderTicker();
+  showToast("Ticker updated and live!");
+}
+
+// ==================== SOCIAL EDITOR ====================
+function loadSocialEditor(){
+  var s=getSoc();
+  document.getElementById("soc-inp-fb").value=s.fb||"";
+  document.getElementById("soc-inp-x").value=s.x||"";
+  document.getElementById("soc-inp-sky").value=s.sky||"";
+  document.getElementById("soc-inp-th").value=s.thread||"";
+  document.getElementById("soc-inp-yt").value=s.yt||"";
+}
+function saveSocial(){
+  var s={
+    fb:document.getElementById("soc-inp-fb").value.trim(),
+    x:document.getElementById("soc-inp-x").value.trim(),
+    sky:document.getElementById("soc-inp-sky").value.trim(),
+    thread:document.getElementById("soc-inp-th").value.trim(),
+    yt:document.getElementById("soc-inp-yt").value.trim()
+  };
+  setSoc(s);renderSocialUI();
+  showToast("Social links saved!");
+}
+
+// ==================== TOAST ====================
+function showToast(msg, type){
+  var el=document.getElementById("toast");
+  el.textContent=msg;
+  el.className="toast"+(type==="err"?" err":"");
+  setTimeout(function(){el.classList.add("show");},10);
+  setTimeout(function(){el.classList.remove("show");},3200);
+}
+
+
+// ── SHARE SYSTEM ─────────────────────────────────────────────
+var _shareTitle = "";
+var _shareUrl   = "";
+
+function openShareCurrent() {
+  var idx = window._currentShareIdx;
+  if (idx === undefined || idx === null) return;
+  var posts = getPosts();
+  var p = posts[idx];
+  if (!p) return;
+  _shareTitle = p.title || "";
+  _shareUrl   = window.location.href;
+  var el      = document.getElementById("shareArticleTitle");
+  var urlBox  = document.getElementById("shareUrlBox");
+  var copyBtn = document.getElementById("shareCopyBtn");
+  var overlay = document.getElementById("shareOverlay");
+  if (!overlay) return;
+  if (el)      el.textContent = _shareTitle;
+  if (urlBox)  urlBox.value   = _shareUrl;
+  if (copyBtn) { copyBtn.textContent = "Copy Link"; copyBtn.classList.remove("copied"); }
+  overlay.style.display = "flex";
+  overlay.classList.add("open");
+}
+
+function closeShare() {
+  var overlay = document.getElementById("shareOverlay");
+  if (!overlay) return;
+  overlay.classList.remove("open");
+  overlay.style.display = "none";
+}
+
+function shareTo(platform) {
+  var u    = encodeURIComponent(_shareUrl);
+  var t    = encodeURIComponent(_shareTitle + " | GunnersDen");
+  var dest = "";
+  if (platform === "facebook") dest = "https://www.facebook.com/sharer/sharer.php?u=" + u;
+  if (platform === "x")        dest = "https://x.com/intent/tweet?text=" + t + "&url=" + u;
+  if (platform === "whatsapp") dest = "https://wa.me/?text=" + t + "%20" + u;
+  if (platform === "bluesky")  dest = "https://bsky.app/intent/compose?text=" + t + "%20" + u;
+  if (platform === "threads")  dest = "https://www.threads.net/intent/post?text=" + t + "%20" + u;
+  if (dest) window.open(dest, "_blank", "noopener,noreferrer");
+}
+
+function copyShareUrl() {
+  var urlBox  = document.getElementById("shareUrlBox");
+  var btn     = document.getElementById("shareCopyBtn");
+  if (!urlBox || !btn) return;
+  var val = urlBox.value;
+  var done = function() {
+    btn.textContent = "Copied!";
+    btn.classList.add("copied");
+    setTimeout(function() {
+      btn.textContent = "Copy Link";
+      btn.classList.remove("copied");
+    }, 2500);
+  };
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(val).then(done).catch(function() {
+      urlBox.select(); document.execCommand("copy"); done();
+    });
+  } else {
+    urlBox.select(); document.execCommand("copy"); done();
+  }
+}
+
+
+// ── PREMIER LEAGUE ARTICLES ───────────────────────────────────
+function renderPLArticles() {
+  var posts = getPosts();
+  var plPosts = posts.filter(function(p) {
+    return p.competition === "Premier League" || p.category === "Premier League";
+  });
+  var el = document.getElementById("plArticlesGrid");
+  if (!el) return;
+  if (plPosts.length === 0) {
+    el.innerHTML = '<div style="color:var(--g5);font-size:14px;padding:20px 0;grid-column:span 2">No Premier League articles yet. Add some via the CMS editor.</div>';
+    return;
+  }
+  var allPosts = getPosts();
+  var out = "";
+  for (var i = 0; i < plPosts.length; i++) {
+    out += buildCard(plPosts[i], allPosts.indexOf(plPosts[i]));
+  }
+  el.innerHTML = out;
+}
+
+
+// ── PREMIER LEAGUE TABLE ─────────────────────────────────────
+var DEFAULT_PL_TABLE = [
+  {pos:1,  club:"Arsenal",      p:35, w:25, d:3, l:7,  gd:"+41", pts:78, arsenal:true},
+  {pos:2,  club:"Man City",     p:35, w:22, d:5, l:8,  gd:"+30", pts:71},
+  {pos:3,  club:"Man United",   p:35, w:19, d:5, l:11, gd:"+17", pts:62},
+  {pos:4,  club:"Liverpool",    p:35, w:17, d:8, l:10, gd:"+14", pts:59},
+  {pos:5,  club:"Tottenham",    p:35, w:16, d:6, l:13, gd:"+1",  pts:54},
+  {pos:6,  club:"Chelsea",      p:35, w:14, d:8, l:13, gd:"+2",  pts:50},
+  {pos:7,  club:"Newcastle",    p:35, w:14, d:6, l:15, gd:"+5",  pts:48},
+  {pos:8,  club:"Aston Villa",  p:35, w:13, d:7, l:15, gd:"-2",  pts:46},
+  {pos:9,  club:"Brighton",     p:35, w:12, d:9, l:14, gd:"+3",  pts:45},
+  {pos:10, club:"West Ham",     p:35, w:11, d:9, l:15, gd:"-8",  pts:42}
+];
+
+function getPlTable() {
+  try { var s = localStorage.getItem(PLT_KEY); return s ? JSON.parse(s) : DEFAULT_PL_TABLE; }
+  catch(e) { return DEFAULT_PL_TABLE; }
+}
+function setPlTable(t) { localStorage.setItem(PLT_KEY, JSON.stringify(t)); }
+
+function renderSidebarPlTable() {
+  var rows = getPlTable();
+  var widget = document.getElementById("sidebarPlTable");
+  if (!widget) return;
+  var html = "";
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var isA = r.arsenal || (r.club && r.club.toLowerCase().indexOf("arsenal") >= 0);
+    var hl = isA ? "background:#fff8e1;" : "";
+    var bold = isA ? "font-weight:800;color:var(--r);" : "font-weight:600;";
+    html += "<tr style='" + hl + "'>";
+    html += "<td style='padding:6px 4px;text-align:center;" + (isA ? "font-weight:800;color:var(--r);" : "font-weight:700;color:var(--g5);") + "border-bottom:1px solid var(--g8)'>" + r.pos + "</td>";
+    html += "<td style='padding:6px 4px;" + bold + "border-bottom:1px solid var(--g8);white-space:nowrap'>" + r.club + (isA ? " &#9889;" : "") + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;border-bottom:1px solid var(--g8)'>" + r.p + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;border-bottom:1px solid var(--g8)'>" + r.w + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;border-bottom:1px solid var(--g8)'>" + r.d + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;border-bottom:1px solid var(--g8)'>" + r.l + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;border-bottom:1px solid var(--g8)'>" + r.gd + "</td>";
+    html += "<td style='padding:6px 4px;text-align:center;" + (isA ? "font-weight:800;color:var(--r);" : "font-weight:700;") + "border-bottom:1px solid var(--g8)'>" + r.pts + "</td>";
+    html += "</tr>";
+  }
+  widget.innerHTML = html;
+}
+
+function loadPlTableEditor() {
+  var rows = getPlTable();
+  var el = document.getElementById("plTableEditorRows");
+  if (!el) return;
+  var html = "";
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    html += "<div style='display:grid;grid-template-columns:40px 1fr 44px 44px 44px 44px 54px 54px 30px;gap:6px;align-items:center;margin-bottom:6px' id='plr-" + i + "'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-pos-" + i + "' value='" + r.pos + "' placeholder='#'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 8px;border-radius:3px;font-size:13px;width:100%' id='pl-club-" + i + "' value='" + r.club + "' placeholder='Club name'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-p-" + i + "' value='" + r.p + "' placeholder='P'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-w-" + i + "' value='" + r.w + "' placeholder='W'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-d-" + i + "' value='" + r.d + "' placeholder='D'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-l-" + i + "' value='" + r.l + "' placeholder='L'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-gd-" + i + "' value='" + r.gd + "' placeholder='GD'>";
+    html += "<input style='background:#13151c;border:1.5px solid #2a2d3a;color:#e8e8e8;padding:6px 4px;border-radius:3px;font-size:13px;text-align:center;width:100%' id='pl-pts-" + i + "' value='" + r.pts + "' placeholder='Pts'>";
+    html += "<button style='background:#c0392b;border:none;color:#fff;width:26px;height:26px;border-radius:50%;font-size:15px;cursor:pointer' onclick='removePlRow(" + i + ")'>&#215;</button>";
+    html += "</div>";
+  }
+  el.innerHTML = html;
+}
+
+function addPlRow() {
+  var rows = getPlTable();
+  rows.push({pos: rows.length + 1, club: "", p: 35, w: 0, d: 0, l: 0, gd: "0", pts: 0});
+  setPlTable(rows);
+  loadPlTableEditor();
+}
+
+function removePlRow(idx) {
+  var rows = getPlTable();
+  rows.splice(idx, 1);
+  for (var i = 0; i < rows.length; i++) rows[i].pos = i + 1;
+  setPlTable(rows);
+  loadPlTableEditor();
+}
+
+function savePlTable() {
+  var container = document.getElementById("plTableEditorRows");
+  if (!container) return;
+  var rowDivs = container.children;
+  var rows = [];
+  for (var i = 0; i < rowDivs.length; i++) {
+    var club = document.getElementById("pl-club-" + i);
+    if (!club || !club.value.trim()) continue;
+    var isA = club.value.toLowerCase().indexOf("arsenal") >= 0;
+    rows.push({
+      pos:    parseInt(document.getElementById("pl-pos-" + i).value) || (i + 1),
+      club:   club.value.trim(),
+      p:      parseInt(document.getElementById("pl-p-" + i).value)   || 0,
+      w:      parseInt(document.getElementById("pl-w-" + i).value)   || 0,
+      d:      parseInt(document.getElementById("pl-d-" + i).value)   || 0,
+      l:      parseInt(document.getElementById("pl-l-" + i).value)   || 0,
+      gd:     document.getElementById("pl-gd-" + i).value.trim()     || "0",
+      pts:    parseInt(document.getElementById("pl-pts-" + i).value) || 0,
+      arsenal: isA
+    });
+  }
+  if (!rows.length) { showToast("Add at least one row", "err"); return; }
+  setPlTable(rows);
+  renderSidebarPlTable();
+  showToast("Premier League table updated!");
+}
+
+</script>
+
+<!-- ── SHARE SHEET ── -->
+<div class="share-overlay" id="shareOverlay" onclick="if(event.target===this)closeShare()">
+  <div class="share-sheet" id="shareSheet">
+    <div class="share-handle"></div>
+    <div class="share-sheet-head">
+      <div class="share-sheet-title">Share this story</div>
+      <div class="share-sheet-art" id="shareArticleTitle"></div>
+    </div>
+    <div class="share-platforms">
+      <!-- Facebook -->
+      <button class="sp-btn" onclick="shareTo('facebook')">
+        <div class="sp-icon" style="background:#1877F2">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </div>
+        <span class="sp-label">Facebook</span>
+      </button>
+      <!-- X / Twitter -->
+      <button class="sp-btn" onclick="shareTo('x')">
+        <div class="sp-icon" style="background:#000">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.847L2.012 2.25h6.944l4.267 5.641zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </div>
+        <span class="sp-label">X / Twitter</span>
+      </button>
+      <!-- WhatsApp -->
+      <button class="sp-btn" onclick="shareTo('whatsapp')">
+        <div class="sp-icon" style="background:#25D366">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="sp-label">WhatsApp</span>
+      </button>
+      <!-- Bluesky -->
+      <button class="sp-btn" onclick="shareTo('bluesky')">
+        <div class="sp-icon" style="background:#0085ff">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204C22.439 1.266 21.434.944 18.798 2.805 16.046 4.748 13.087 8.687 12 10.8z"/></svg>
+        </div>
+        <span class="sp-label">Bluesky</span>
+      </button>
+      <!-- Threads -->
+      <button class="sp-btn" onclick="shareTo('threads')">
+        <div class="sp-icon" style="background:#000">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.068V12c.003-5.385 3.043-9.23 8.34-10.607A11.76 11.76 0 0 1 12 1.053c.718.013 1.435.092 2.14.237C18.966 2.362 22.5 6.166 22.5 12.068c0 3.518-.85 6.372-2.497 8.423C18.15 22.795 15.395 23.976 12.186 24z"/></svg>
+        </div>
+        <span class="sp-label">Threads</span>
+      </button>
+    </div>
+    <hr class="share-divider">
+    <div class="share-copy-row">
+      <input class="share-url-box" id="shareUrlBox" readonly>
+      <button class="share-copy-btn" id="shareCopyBtn" onclick="copyShareUrl()">Copy Link</button>
+    </div>
+    <button class="share-close-btn" onclick="closeShare()">Cancel</button>
+  </div>
+</div>
+
+</body>
+</html>
